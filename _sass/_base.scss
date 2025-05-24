@@ -391,6 +391,7 @@ header {
                         display: block;
                         width: 100%;
                         height: auto; 
+                        margin: 0;
                     }
                 }
 
@@ -839,7 +840,7 @@ ul.search-results-list {
 .no-results-message {
     padding: 10px;
     text-align: center;
-    color: #666;
+    color: vars.$color-text;
     font-style: italic;
 }
 
@@ -851,7 +852,7 @@ ul.search-results-list {
     }
 
     #dp {
-        display: block;
+        grid-template-columns: 1fr;
         background: vars.$color-dp-bg;
         padding: 1em;
 
@@ -862,10 +863,31 @@ ul.search-results-list {
         }
 
         article {
-            img,
             table {
                 margin: 0 -1.5em;
                 border-radius: 0;
+            }
+            .last-posts{
+                a.post-item{
+                    .image-container{
+                        max-height: none;
+                        overflow: visible;
+                        .image-overlay{
+                            background: none;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    #dp{
+        article{
+            .last-posts{
+                grid-template-columns: 1fr;
             }
         }
     }
