@@ -28,7 +28,7 @@ A lo largo de este recorrido, el sitio ha transitado por múltiples versiones: H
 
 Hoy he migrado todo a Jekyll, lo que me otorga control total sobre la apariencia y evolución del sitio. El repositorio se encuentra en [github](https://github.com/hspencer/dp) para que Ud. mire y saque lo que le interese. Pude hacer muchas cosas gracias a ChatGPT y Gemini, como la paginación de la portada y las footnotes.
 
-El diseño, en su ¿séptima? versión de "doble página" vuelve a lo original, limpio y elegante del ante-dentro, imagen-panorama y texto-discurso como lo planteaba [con§tel](/2006/10/constel-sharing-marginalia/). 
+El diseño, en su ¿séptima? versión de "doble página" vuelve a lo original, limpio y elegante del ante-dentro, imagen-panorama y texto-discurso como lo planteaba [con§tel](/2006/10/constel-sharing-marginalia/). Esta versión se llama **Scaramanga** en homenaje a [Francisco Scaramanga](https://en.wikipedia.org/wiki/Francisco_Scaramanga), el hombre del revólver de oro.
 
 #### Color - fonts
 

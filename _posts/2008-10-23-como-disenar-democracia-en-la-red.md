@@ -23,7 +23,7 @@ Escribo este post porque veo que ya están ocurriendo cosas en este ámbito y ha
 
 A continuación me quiero referir a ciertos puntos que considero críticos para abordar el diseño de plataformas de conversación política en la red fortaleciendo el poder de la participación.
 
-![](/assets/uploads/2008/10/conversacion-en-red1.png)
+![Diseñar para una mirada compartida](/assets/uploads/2008/10/conversacion-en-red1.png)
 
 ### La Infraestructura
 
@@ -37,7 +37,7 @@ Entonces, una de las principales barreras para la validación de los discursos v
 
 Una posible vía para revertir esta situación es promover otra arquitectura para la red, por ejemplo, la propuesta por la iniciativa OLPC que aboga por la [topología de malla](http://es.wikipedia.org/wiki/Topolog%C3%ADa_en_malla "Topología de Malla en Wikipedia"), donde cada computador es un nodo replicador, es decir, cada participante se contituye como el medio mismo.
 
-![](/assets/uploads/2008/10/relevancia1.png)
+![Diseñar para la modelación de la relevancia](/assets/uploads/2008/10/relevancia1.png)
 
 ### La Relevancia
 
@@ -47,7 +47,7 @@ Así como existen foros, donde uno puede crear nuevos temas o seguir la conversa
 
 En cierta medida, se trata de centralizar los temas para constituirlos como espacio: **espaciar los temas**. Porque son precisamente los temas (_issues_) los que desencadenan los públicos a su alrededor ((Jürgen Habermas sostiene que el concepto de "esfera pública" emerge desde el acto de comunicación —o conversación social— pero John Dewey sostiene que son precisamente los temas los que se instalan para construir públicos en torno a ellos.)).
 
-![](/assets/uploads/2008/10/reversibilidad1.png)
+![Diseñar para la reversibilidad o "convivencialidad"](/assets/uploads/2008/10/reversibilidad1.png)
 
 ### La Reversibilidad
 
@@ -55,4 +55,4 @@ Las reglas que definen los formatos de conversación deben basarse en principios
 
 La dificultad que ofrece la validación de estos discursos emergentes es que "la gente" como institución no existe: siempre el discurso comenzará como una iniciativa "privada" que sólo podrá validarse mediante la masividad de la participación que convoque (las firmas que junte). Es en este sentido que la barrera de acceso a la creación de las temáticas debe ser mínima (ya basta con la barrera del acceso a la tecnología, a Internet y a la educación necesaria para desenvolverse en una plataforma semejante).
 
-![](/assets/uploads/2008/10/conclusiones1.png)
+![Reflexiones para una conclusión](/assets/uploads/2008/10/conclusiones1.png)
