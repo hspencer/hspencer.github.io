@@ -38,8 +38,8 @@ El presente sitio recoge una amplia gama de contenidos —reflexiones personales
   - Barlow para títulos y etiquetas. 
 
 ###### Aspectos constructivos
-  - Jekyll
-  -- custom plugin para las notas al pié de página
+  - Sitio estático en HTML generado con Jekyll
+  -- custom plugin para las [notas al pié de página](https://github.com/hspencer/hspencer.github.io/blob/3.2.2/_plugins/footnotes.rb)
   - SCSS
   - feed.xml y feed.json son la forma de distribución del contenido
   - hospedado en Github sin compilación remota, se publica el sitio compilado localmente dado que al utilizar *custom plugins* no se cumplen las normas de seguridad
