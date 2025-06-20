@@ -29,7 +29,6 @@ safe: false # Permite el uso de plugins personalizados
 plugins_dir: _plugins   # Especifica el directorio de plugins (si se requiere)
 
 destination: docs      # Genera los archivos estáticos en /docs
-exclude: [docs]         # Evita que Jekyll procese la carpeta /docs
 
 permalink: /:categories/:title/
 
@@ -52,6 +51,7 @@ include:
 
 # Excluir archivos y carpetas
 exclude:
+  - docs
   - Gemfile
   - Gemfile.lock
   - node_modules
