@@ -29,14 +29,14 @@ safe: false # Permite el uso de plugins personalizados
 plugins_dir: _plugins   # Especifica el directorio de plugins (si se requiere)
 
 destination: docs      # Genera los archivos estáticos en /docs
-
 permalink: /:categories/:title/
 
+# Plugins de Jekyll (instalar en el Gemfile también)
 plugins:
   - jekyll-sass-converter
-  - jekyll-assets
+  - jekyll-assetsbundle 
 
-# Sass stuff
+# Sass
 sass:
   load_paths: 
     - .
@@ -83,3 +83,18 @@ defaults:
 
 # no github default theme
 theme: null
+
+# Sitemap.xml generado automáticamente en src/_includes/sitemap.xml
+
+# Agregado de código sugerido como edición
+# src/_includes/sitemap.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for page in site.pages %}
+    <url>
+      <loc>{{ site.baseurl }}/{{ page.url }}</loc>
+      <lastmod>{{ page.modified_at | date: "%Y-%m-%d" }}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  {% endfor %}

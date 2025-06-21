@@ -1,8 +1,9 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.2.2"
 gem "csv"
-# gem "github-pages", group: :jekyll_plugins
+group :jekyll do
+  gem 'jekyll', '~> 4.2'
+end
 
 group :jekyll_plugins do
   gem "jekyll-sass-converter"

@@ -45,8 +45,8 @@ tags: [tesis, llm]
   - Chequear entorno
      ```
      rbenv versions
-     rbenv install 2.7.6
-     rbenv local 2.7.6
+     rbenv install 3.4.4
+     rbenv local 3.4.4
      ```   
 
 
