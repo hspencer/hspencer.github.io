@@ -49,7 +49,6 @@ tags: [tesis, llm]
      rbenv local 3.4.4
      ```   
 
-
 ### cosas de migración 
 
 ```

@@ -34,7 +34,7 @@ permalink: /:categories/:title/
 # Plugins de Jekyll (instalar en el Gemfile también)
 plugins:
   - jekyll-sass-converter
-  - jekyll-assetsbundle 
+  - jekyll-assets
 
 # Sass
 sass:
@@ -48,16 +48,8 @@ sass:
 include:
   - _sass
   - assets/css
-  - _layouts<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.baseurl }}{{ post.url }}</loc>
-      <lastmod>{{ post.modified_at | date: "%Y-%m-%d" }}</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  {% endfor %}
-</urlset>/sitemap.xml
+  - _layouts
+  - sitemap.xml
 
 # Excluir archivos y carpetas
 exclude:
