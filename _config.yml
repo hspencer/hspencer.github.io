@@ -31,6 +31,10 @@ plugins_dir: _plugins   # Especifica el directorio de plugins (si se requiere)
 destination: docs      # Genera los archivos estáticos en /docs
 permalink: /:categories/:title/
 
+build:
+  sass:
+    style: compressed
+
 # Plugins de Jekyll (instalar en el Gemfile también)
 plugins:
   - jekyll-sass-converter

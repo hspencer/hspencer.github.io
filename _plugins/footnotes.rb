@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-puts "FOOTNOTE FILTER cargado"  # Línea de depuración para verificar la carga
+puts "[footnotes.rb] plugin cargado"
 
 module Jekyll
     module FootnoteFilter
