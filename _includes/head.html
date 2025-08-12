@@ -10,14 +10,36 @@
   <!-- Título -->
   <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
 
-  {%- assign og_img_path =
-      page.image.path
-      | default: page.image
-      | default: site.og.image
-      | default: site.image
-      | default: '/android-chrome-512x512.png'
-  -%}
-  {%- assign og_img = og_img_path | absolute_url -%}
+{%- comment -%}
+  Dominio fijo para composición manual de URLs absolutas.
+  No depende de absolute_url ni del host de `jekyll serve`.
+{%- endcomment -%}
+{%- assign ORIGIN = "https://herbertspencer.net" -%}
+{%- assign BASE   = site.baseurl | default: "" -%}
+
+{%- comment -%} URL canónica de la página {%- endcomment -%}
+{%- assign canonical_url = ORIGIN | append: BASE | append: page.url -%}
+
+{%- comment -%}
+  Imagen OG/Twitter:
+  - Prioriza page.image.path → page.image → site.og.image → site.image → fallback.
+  - Si ya es absoluta, úsala tal cual; si es relativa, antepone ORIGIN+BASE.
+{%- endcomment -%}
+{%- assign og_img_path =
+    page.image.path
+    | default: page.image
+    | default: site.og.image
+    | default: site.image
+    | default: "/android-chrome-512x512.png"
+-%}
+{%- if og_img_path contains "://" -%}
+  {%- assign og_img = og_img_path -%}
+{%- else -%}
+  {%- if og_img_path | slice: 0, 1 != "/" -%}
+    {%- assign og_img_path = "/" | append: og_img_path -%}
+  {%- endif -%}
+  {%- assign og_img = ORIGIN | append: BASE | append: og_img_path -%}
+{%- endif -%}
 
   <!-- Open Graph -->
   <meta property="og:site_name" content="{{ site.title }}">
