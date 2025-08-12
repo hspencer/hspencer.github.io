@@ -10,6 +10,13 @@
   <!-- Título -->
   <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
 
+  {%- assign og_img_path =
+      page.image.path
+      | default: page.image
+      | default: site.og.image
+      | default: site.image
+      | default: '/android-chrome-512x512.png'
+  -%}
   {%- assign og_img = og_img_path | absolute_url -%}
 
   <!-- Open Graph -->
