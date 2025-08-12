@@ -623,7 +623,6 @@ footer {
     .actual {
         background: #333;
         color: #fff;
-        cursor: default;
     }
 }
 
@@ -893,3 +892,14 @@ ul.search-results-list {
         }
     }
 }
+
+/* 1) Restablecer el puntero para enlaces reales */
+a[href] { cursor: pointer; }
+
+/* 2) Si hay resets/overlays que afectan hijos dentro del <a>, cúbralos: */
+a[href], a[href] * { cursor: pointer; }
+
+/* 3) Si detecta un selector muy fuerte o un reset con all:unset,
+   use temporalmente !important hasta limpiar el origen: 
+:root a[href] { cursor: pointer !important; }
+*/
