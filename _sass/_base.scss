@@ -239,6 +239,7 @@ header {
             background-position: 0 90%;
             background-repeat: no-repeat;
             transition: background-size 0.3s ease;
+            cursor: pointer;
 
             &:hover {
                 background-size: 100% 2px;
