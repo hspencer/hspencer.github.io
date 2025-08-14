@@ -15,7 +15,7 @@
   Normaliza slashes para evitar "//".
   {%- endcomment -%}
 
-  {%- assign PROD_URL = "https://herbertspencer.net" -%}  {# sin slash final #}
+  {%- assign PROD_URL = "https://herbertspencer.net" -%} 
   {%- assign BASE     = site.baseurl | default: "" | replace: '//', '/' -%}
   {%- if BASE != "" and BASE != "/" -%}
     {%- assign BASE = '/' | append: BASE | replace: '//', '/' -%}

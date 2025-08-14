@@ -54,6 +54,7 @@ include:
   - assets/css
   - _layouts
   - sitemap.xml
+  - localhost.crt
 
 # Excluir archivos y carpetas
 exclude:
