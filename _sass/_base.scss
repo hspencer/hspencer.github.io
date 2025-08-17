@@ -229,8 +229,7 @@ header {
         /* links en párrafos listas y footnotes */
         p > a,
         ul > li > a,
-        ol > li > a,
-        .footnotes > ol > li > a {
+        ol > li > a{
             position: relative;
             color: vars.$color-link;
             text-decoration: none;
@@ -331,33 +330,8 @@ header {
             }
         }
 
-        .footnote-ref {
+        sup.fn-ref a{
             color: vars.$color-red;
-        }
-
-        .footnotes {
-            font-size: 0.8em;
-            margin-top: 2rem;
-
-            ol {
-                padding-left: 1.5rem;
-            }
-
-            a.footnote-ref {
-                text-decoration: none;
-                color: vars.$color-red;
-            }
-
-            a.footnote-back {
-                color: vars.$color-light;
-                text-decoration: none;
-                background-image: none;
-
-                &:hover {
-                    background-image: none;
-                    color: vars.$color-red;
-                }
-            }
         }
 
         .last-posts {
@@ -464,6 +438,41 @@ header {
                     font-size: 80%;
                     line-height: 110%;
                 }
+            }
+        }
+    }
+
+.footnotes {
+        font-size: 0.75em;
+        margin-top: 2rem;
+
+        ol {
+            padding-left: 4.5rem;
+
+            li{
+                margin-bottom: 1em;
+                &::marker{
+                    color: vars.$color-red;
+                    font-size: 70%;
+                    font-weight: 800;
+                }
+            }
+            
+        }
+
+        a.footnote-ref {
+            text-decoration: none;
+            color: vars.$color-red;
+        }
+
+        a.footnote-back {
+            color: vars.$color-light;
+            text-decoration: none;
+            background-image: none;
+
+            &:hover {
+                background-image: none;
+                color: vars.$color-red;
             }
         }
     }

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
   {% include head.html %}
+  {% assign body_processed = content | footnotes_process %}
+
   <body>
     {% include header.html %}
 
@@ -28,10 +30,12 @@
           {{ page.sidebar.md | markdownify }}
         {% endif %}
 
+        <!-- Footnotes -->
+        {{ page.footnotesList | footnotes_render }}
       </sidebar>
 
       <article>
-        {{ content | convert_footnotes | markdownify }}
+        {{ content | footnotes_process | markdownify }}
       </article>
     </main>
     {% include footer.html %}

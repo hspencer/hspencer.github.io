@@ -3,6 +3,7 @@
 {% include head.html %}
 <body>
   {% include header.html %}
+  {% assign body_processed = content | footnotes_process %}
   <main id="dp">
     <sidebar>
       <h1 class="title">{{ page.title }}</h1>
@@ -83,10 +84,16 @@
 
       <!-- Link a la cita -->
       {% include citar.html %}
+
+      <!-- Footnotes -->
+      {{ page.footnotesList | footnotes_render }}
+      
     </sidebar>
 
     <article>
-      {{ content | convert_footnotes | markdownify }}
+      {{ content | footnotes_process | markdownify }}
+
+
       {% include comments.html %}
     </article>
   </main>
