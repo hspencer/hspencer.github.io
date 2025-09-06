@@ -1,6 +1,22 @@
 [
 
   {
+    "fecha": "2025-09-06T00:00:00+12:00",
+    "titulo": "Manifiesto para el Diseño de Interacción en un Tiempo que se Despliega",
+    "categorias": ["ideas"],
+    "etiquetas": ["diseño de interacción","manifiesto","futuro"],
+    "imagen":  
+                  "/assets/pintura/01.png"
+               ,
+    "url": "/2025/manifiesto",
+    "largo": 9707,
+    "contenido":
+      
+        "Una postura ética para orientar al oficio hacia lo común, lo hospitalario y lo humano. No es un listado de buenas prácticas, sino una declaración ética y poética sobre nuestra responsabilidad."
+      
+  },
+
+  {
     "fecha": "2025-07-30T00:00:00+12:00",
     "titulo": "Utopías para después de la singularidad tecnológica",
     "categorias": ["ideas","notas"],
