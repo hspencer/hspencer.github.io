@@ -86,12 +86,12 @@
       {% include citar.html %}
 
       <!-- Footnotes -->
-      {{ page.footnotesList | footnotes_render }}
+      {{ page.footnotes_html }}
       
     </sidebar>
 
     <article>
-      {{ content | footnotes_process | markdownify }}
+      {{ content }}
 
       {% include comments.html %}
     </article>

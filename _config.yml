@@ -88,5 +88,3 @@ defaults:
     values:
       layout: "post"
 
-# no github default theme
-theme: null

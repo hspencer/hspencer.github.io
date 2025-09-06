@@ -77,22 +77,7 @@ A continuación se proporcionan instrucciones detalladas para que puedas utiliza
 
 ## plugin de notas al pie
 
-Importante definir esto, ya que por temas de seguridad, los plugins propios son mal vistos.
-
-```yaml
-safe: false  # Permite el uso de plugins personalizados
-plugins_dir: _plugins
-```
-
-Para que funciones en el contenido, se debe hacer de la siguiente manera:
-
-```liquid
-{{ content | convert_footnotes | markdownify }}
-```
-
-De este modo, el filtro `convert_footnotes` actúa sobre el contenido original, antes de la conversión a HTML mediante `markdownify`.
-
-Las notas se escriben de forma contínua en el texto ((utilizando dobles paréntesis solamente)) sin espacios, saltos de línea o caracteres adicionales que puedan interferir con la expresión regular que los detecta.
+En remodelación
 
 
 ### Generar el sitio en local
