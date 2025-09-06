@@ -38,7 +38,7 @@ Entonces, en el ánimo de visualizar los patrones que pueden emerger a partir de
 
 La primera fila corresponde a la multiplicación por cero, donde todas las líneas se conectan con ese punto ((Estas figuras están rotadas en 90 grados respecto al ejemplo inicial, para efectos de ubicar el cero en la parte superior del círculo)); la segunda fila (×1) corresponde a la identidad, la tercera fila (×2) va revelando el cardioide, la cuarta fila (×3) el nefroide, etc.
 
-La figura describe un triángulo ((Como los [números triangulares](https://es.wikipedia.org/wiki/Número_triangular))) porque verticalmente las figuras se repiten en la misma secuencia y orden, tanto positivos como negativos ((Obviamente no puedo hacer lo mismo con el módulo, ya que no existe la forma negativa de representarlo)).
+La figura describe un triángulo ((Como los [números triangulares](https://es.wikipedia.org/wiki/Número_triangular).)) porque verticalmente las figuras se repiten en la misma secuencia y orden, tanto positivos como negativos ((Obviamente no puedo hacer lo mismo con el módulo, ya que no existe la forma negativa de representarlo)).
 
 Son interesantes los patrones que se identifican en diversos ángulos de la diagonal, por ejemplo, los que llamo "productos ortogonales": 2 × 0; 4 × 1; 6 × 2; 8 × 3; 10 × 4 ... _2n + 2 × n_
 

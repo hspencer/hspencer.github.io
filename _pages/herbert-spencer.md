@@ -19,7 +19,7 @@ p5:
 
 Soy Herbert Spencer González, diseñador gráfico formado en los albores de la era digital, testigo y partícipe de todas las transformaciones radicales de este soporte sobre el cual Ud. querido lector, lee. 
 
-Entre 1991-98 Internet redefinió la publicación y la comunicación gráfica, impulsándonos a explorar nuevas formas de interacción y comprensión. Aparece lo radical y fragmentador del hipertexto y la nueva continuidad de la lectura(([Axis Mundae](/2003/07/axis-mundae/) es el poema que trata esa continuidad como un acto finito (de *no infinito* puesto que tiene un cuanto)))
+Entre 1991-98 Internet redefinió la publicación y la comunicación gráfica, impulsándonos a explorar nuevas formas de interacción y comprensión. Aparece lo radical y fragmentador del hipertexto y la nueva continuidad de la lectura(([Axis Mundae](/2003/07/axis-mundae/) es el poema que trata esa continuidad como un acto finito (de *no infinito* puesto que tiene un cuanto).))
 
 El diseño gráfico, siempre en evolución, nos llevó desde la poiética de la forma hasta la retórica de los públicos((La forma no viene de la cosa misma, viene del acto del usuario y por tal, se reubica el origen de la obra: el super-otro)). A medida que el diseño digital cobraba protagonismo, mi enfoque se centró en el usuario, en su contexto y necesidades, en un diseño de segundo orden, donde la forma es resultado de la empatía y comprensión.
 

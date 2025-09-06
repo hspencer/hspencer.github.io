@@ -41,7 +41,7 @@ Basándonos en esta hipótesis, desarrollamos una serie de herramientas destinad
 
 - **[```face-qualify```](https://github.com/hspencer/face-qualify)**: Una biblioteca complementaria que ofrece una interfaz sencilla para que los usuarios califiquen elementos utilizando expresiones faciales en una escala de cinco niveles escalonados. 
 
-- **[```face-edit```](https://github.com/hspencer/face-edit)**: Una herramienta desarrollada con P5.js para editar y definir nuevas expresiones faciales, permitiendo la personalización de pictogramas utilizados en las herramientas anteriores para su interpolación((Acá surgió la idea, un poco más complejo y por lo tanto menos accesible, de mensar inputs bidimensionales, siguiendo 2 ejes en la línea de lo que nos muestra Edward Tufte en este gráfico: <br><br>![](/assets/uploads/2018/11/tufte-wolf.png))) .
+- **[```face-edit```](https://github.com/hspencer/face-edit)**: Una herramienta desarrollada con P5.js para editar y definir nuevas expresiones faciales, permitiendo la personalización de pictogramas utilizados en las herramientas anteriores para su interpolación((Acá surgió la idea, un poco más complejo y por lo tanto menos accesible, de mensar inputs bidimensionales, siguiendo 2 ejes en la línea de lo que nos muestra Edward Tufte en este gráfico: <br><br>![](/assets/uploads/2018/11/tufte-wolf.png).)) .
 
 ### Validación y Resultados
 

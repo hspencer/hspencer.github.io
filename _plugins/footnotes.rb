@@ -1,15 +1,4 @@
-# _plugins/footnotes.rb
 
-# ¡Felicidades! Arreglaste mi error de tipeo y llegamos al jefe final:
-# el renderizado de Markdown DENTRO de las notas.
-#
-# El problema: Al extraer el texto de la nota ANTES de que Kramdown procese el
-# post, ese texto se queda como texto plano. Nunca pasa por el conversor.
-#
-# La solución: Le enseñamos a nuestro plugin a usar Kramdown por su cuenta.
-# Por cada nota que extraemos, invocamos al conversor de Kramdown para que
-# procese ESE FRAGMENTO específico. Es una operación quirúrgica que nos da
-# lo mejor de ambos mundos: nuestra sintaxis y todo el poder de Kramdown.
 
 require 'kramdown'
 
@@ -18,9 +7,24 @@ module Jekyll
     footnote_counter = 0
     footnotes = []
 
-    # Modificamos el contenido del documento ANTES de que lo vea Kramdown.
-    doc.content.gsub!(/\(\((.*?)\)\)/m) do |match|
+    # Cómo funciona:
+    #   \(\(          # Busca el "((" de apertura literal.
+    #   (             # Inicia la captura del contenido de la nota.
+    #     (?:         # Es un grupo que no captura, pero que nos deja agrupar opciones:
+    #       [^()]+    #   Opción 1: Captura cualquier caracter que NO sea un paréntesis.
+    # | #   O...
+    #       \(.*?\)   #   Opción 2: Captura un bloque completo de paréntesis, desde su "(" hasta su ")".
+    #     )+          # Repite este proceso una o más veces.
+    #   )             # Termina la captura del contenido.
+    #   \)\)          # Busca el "))" de cierre literal.
+    #
+    # Esto le permite "saltar" por encima de los paréntesis internos sin detenerse.
+    
+    nested_parens_regex = /\(\(( (?: [^()]+ | \(.*?\) )+ )\)\)/xm
+
+    doc.content.gsub!(nested_parens_regex) do |match|
       footnote_counter += 1
+      # Usamos $1 porque la regex ahora tiene un grupo de captura principal.
       footnote_text = $1.strip
       footnotes << footnote_text
 
@@ -32,15 +36,7 @@ module Jekyll
     if footnote_counter > 0
       notes_html = '<div class="footnotes"><hr><ol>'
       footnotes.each_with_index do |note, index|
-        
-        # --- LA LÍNEA MÁGICA ---
-        # Aquí es donde le pedimos a Kramdown que haga su trabajo.
-        # 1. `Kramdown::Document.new(note)`: Toma el texto plano de la nota.
-        # 2. `.to_html`: Lo convierte a HTML, procesando cualquier Markdown que contenga.
-        # 3. `.gsub(...)`: Le quitamos las etiquetas <p> que Kramdown añade por defecto
-        #    para que no arruinen el formato dentro de nuestro <li>.
         note_content = Kramdown::Document.new(note).to_html.gsub(/<\/?p>\s?/, '').strip
-        
         notes_html += "<li id=\"fn:#{index + 1}\"><p>#{note_content} <a href=\"#fnref:#{index + 1}\" class=\"reversefootnote\" title=\"volver al texto\">↩</a></p></li>"
       end
       notes_html += '</ol></div>'

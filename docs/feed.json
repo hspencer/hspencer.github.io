@@ -25,7 +25,7 @@
                   "/assets/uploads/2025/07/frames-of-future.jpg"
                ,
     "url": "/2025/utopias-post-singularidad",
-    "largo": 11456,
+    "largo": 11628,
     "contenido":
       
         "Las utopías evolucionan hacia sistemas autónomos donde la IA distribuye valor. Pero advierte: sin control humano, la eficiencia se vuelve totalitaria."
@@ -57,7 +57,7 @@
                   "/assets/uploads/2025/03/make-the-bed.png"
                ,
     "url": "/2025/PictoNet",
-    "largo": 27452,
+    "largo": 27440,
     "contenido":
       
         "PictoNet es un sistema generativo de pictogramas a partir de texto diseñado para la comunicación aumentativa y alternativa."
@@ -73,7 +73,7 @@
                   "/assets/uploads/2025/03/liqnr00.png"
                ,
     "url": "/2025/03/la-internet-que-nos-robaron/",
-    "largo": 7565,
+    "largo": 7561,
     "contenido":
       
         "Una reflexión de lo que pudo ser pero no fue. Del origen abierto, colaborativo y desintermediado y del presente secuestrado e idiotizante. Pero todavía hay esperanza."
@@ -153,7 +153,7 @@
                   "/assets/uploads/2018/11/faces.png"
                ,
     "url": "/2018/11/face-input/",
-    "largo": 4998,
+    "largo": 4997,
     "contenido":
       
         "Mapear emociones a través de pictogramas como método de entrada de datos en el contexto de la creación de interfaces digitales ¿Es más claro ingresar una emoción o un número?"
@@ -185,7 +185,7 @@
                   "/assets/uploads/2017/02/Captura-de-pantalla-2018-11-01-a-las-13.50.49.png"
                ,
     "url": "/2017/02/numeros-modulares/",
-    "largo": 2452,
+    "largo": 2451,
     "contenido":
       
         "Se trata más bien de una curiosidad o divertimento matemático, en el mismo espíritu del modulador de números primos: ¿podemos ver patrones en las tablas de multiplicar?Una forma bastante interesante de representar esta operación es de forma modular , es decir, en la multiplicación 10 × 2 :El primer factor (10) define la cantidad de puntos, es decir el módulo para todo n ∈ ℕ y el segundo constituye la forma para trazar el producto: Si 1 × 2 es 2, una línea unirá el 1 y el 2; 2 × 2 = 4, se unirá el 2 y el 4, etc.Esta forma modular de representar los productos arroja regularidades muy interesantes. Por ejemplo, si aumento el número del módulo, pero mantengo el multiplicador, es decir de 10 × 2 paso a**  1000 × 2 **aparece la siguiente figura:Cardioide, llamado así por su semejanza a un corazón. Esta figura emerge al multiplicar ×2 independiente del módulo (mayor el módulo, mayor resolución de la figura). Al multiplicar por ×3 aparecerá un Nefroide (un riñón).La figura del cardioide aparece cotidianamente en la taza, cuando la luz del sol se refleja en las caras internas (curvas) y se proyectan sobre la superficie del café.Un aspecto significativo resulta ser que el módulo constituye también la cantidad de figuras posibles de obtener, ya que comenzarán a repetirse cíclicamente. Es decir, en**9  × n **tendré sólo 9 figuras, independiente del n. Como demostración, te invito a comprobarlo tú mismo con esta herramienta.Entonces, en el ánimo de visualizar los patrones que pueden emerger a partir de estas figuras únicas, las dispuse en una grilla donde horizontalmente voy aumentando el módulo y verticalmente el multiplicador:Grilla para visualizar las tablas de multiplicar a partir de las figuras únicas. Aparecen patrones en diferentes ángulos diagonales. Acá un PDFen alta resolución.La primera fila corresponde a la multiplicación por cero, donde todas las líneas se conectan con ese punto 1; la segunda fila (×1) corresponde a la identidad, la tercera fila (×2) va revelando el cardioide, la cuarta fila (×3) el nefroide, ..."
@@ -409,7 +409,7 @@
                   "/assets/uploads/2013/05/infinite-loop.png"
                ,
     "url": "/2013/05/el-diseno-o-el-bucle-infinito/",
-    "largo": 5295,
+    "largo": 5293,
     "contenido":
       
         "El diseño gráfico es completo –en el arco de su argumento– porque se basta de sí mismo para comunicar su relato. Digo que se basta de sí mismo porque se construye como una cifra , con sus imágenes, sus letras, su código, su discurso y su tiempo. La superficie contiene todas las claves que condensan y fijan el discurso en una cifra gráfica. Ejemplos de esto se encuentran en todas partes: afiches, revistas, envases, carteles, folletos, revistas, libros; incluso las artes gráficas –incluso la pintura– comparten esta naturaleza unidireccional de lo fijo. Y con “lo fijo” no quiero decir que sea cerrado, o restado en alguna medida. Tan solo quiero argumentar que en esta fianza de lo fijo descansa la potencia que tiene el lenguaje visual de hacer detonar, en el lector, toda la potencia de su discurso. El diseñador recibe un argumento –o lo articula– para luego interpretarlo, darle espacio, darle forma, darle voz gráfica; materializa su palabra y su apariencia, le da un tempo, una demora. El diseño gráfico es, entonces, unidireccional y fijo, cada vez.(1) discurso gráfico de lo fijo (2) diálogo autor-lector / sistema-usuario (3) participación reflexiva de los muchos que hacen emerger nuevos espacios. El autor/diseñador define las reglas de interacción. ¿Determinismo estructural cerrado o libertad abierta en constante expansión?… ¿nos preguntamos eso cuando diseñamos?El diseño de interacción supone otra estructura discursiva. La forma digital –sabemos– no es fija sino que permanece en el flujo del diálogo. Trata de construir una simetría inicial entre:  el discurso (voz del autor) y  el lector que responde, que dice, que anota y que extiende este espacio (ya nunca más fijo).Esta partida es simple. Primero lo fué con el hipertexto, donde la idea de continuidad del discurso autoral quedó suspendida y abierta por la voluntad del lector. Y ahora es la performatividad del algoritmo, cifrado como código, que es capaz de condicionar el espacio (como campo de posibilidades) y de hacer emerger desde un flujo abierto por la natu..."
@@ -457,7 +457,7 @@
                   "/assets/uploads/2011/11/palomas-estorninos.png"
                ,
     "url": "/2011/11/de-palomas-y-estorninos/",
-    "largo": 25429,
+    "largo": 25428,
     "contenido":
       
         "Las recientes movilizaciones ciudadanas en Chile y en el mundo, en su transversalidad y convocatoria, han puesto en cuestión el esquema de conversación social aportándonos con experiencias muchas veces directas (desde dentro, digamos) y rectificadoras de algunas premisas teóricas que teníamos equivocadas. Entre ellas, el supuesto deterioro del capital social –que pensábamos– se concentraba entre los más jóvenes. La aparente apatía juvenil, observada por diversos estudios durante los últimos años, no resultó ser otra cosa que una profunda desesperanza e impotencia producto de la desconfianza hacia un sistema sin canales viables para la participación, manifestándose este año en oleadas sucesivas de movilizaciones que han girado en torno a temas-eje 1, activado a la esfera pública de una forma inédita. Hemos sido testigos de cómo los temas configuran públicos en torno a ellos (y no al revés) de forma veloz y altamente volátil, en términos de la energía que pueden desplegar en corto tiempo.  Este “estado de movilización” es transversal en muchas sociedades modernas y ha llegado para quedarse. Ejemplo de esto son: el 15M, la primavera árabe, el movimiento de los indignados, el movimiento estudiantil en Chile, los recientes desórdenes en Londres, las diferentes instancias de los actos #Occupy --, sólo por nombrar algunos. La hebra común que los vincula en muchos casos se refiere al descontento social, con una insuficiente o nula canalización de los anhelos civiles hacia las políticas públicas imperantes o un gran anhelo de vida democrática de calidad con formas concretas de aportar y de ser reconocido. Esto se ha reflejado en la fuerte voluntad de participación directa de la ciudadanía, ahora empoderada por las herramientas digitales, fundamentalmente a través del uso de las redes sociales que, aunque pueden en ocasiones banalizar los procesos de debate y participación, se han constituido en un nueva ágora pública, desestimando los canales de participación tradicionales y abogando por un modo más transparente y reve..."
@@ -569,7 +569,7 @@
                   "/assets/pintura/05.png"
                ,
     "url": "/2010/10/internet-como-bien-publico/",
-    "largo": 4787,
+    "largo": 4786,
     "contenido":
       
         "Me parece que la WWW se nos presenta, cada día más, como el medio por el cual se contruye nuestro espacio público y nuestra cotidianidad social. Para la mayoría de mis amigos, esta afirmación no es solamente obvia sino ya algo añeja. Uno puede constatar cómo nuestra narrativa social se va escribiendo en la Red, en un soporte con memoria que construye el espejo con el que nos miramos. Este medio permite una mayor apertura en comparación con los viejos mass media, facilitando la producción abierta de contenidos y de conversaciones en una cierta libertad de expresión, además de permitir la colaboración masiva en proyectos tan emblemáticos como Wikipedia, entre otros cientos.Es problemático, sin embargo, que reconociendo este creciente rol cultural y público (estratégico, por cierto), la Red permanezca peligrosamente bajo una arquitectura privada. Es bien sabido que en caso de guerra, el sistema de comunicaciones de una nación pasa a ser un objetivo militar: la estocada hay que darla en el corazón. Cuando desaparece esa delicada capa de comunicación, la sociedad pierde su civilidad y su cordura 1. El Estado, sin ir más lejos, capta gran parte de sus ingresos por medio de las ventanillas transaccionales del SII.cl, así como muchos de sus servicios interactúan con el público por medio de servicios en línea. Pero aquí radica la paradoja: este espacio aparentemente público es enteramente privado. Las leyes 2 estipulan que para “redes residenciales” (osea, casi todas) sólo se puede tener acceso a Internet mediante y mediado por un ISP 3, quien controla y franquea toda conexión con el mundo exterior. Esta arquitectura presenta 3 problemas fundamentales:  Se basa en un esquema comercial donde las personas somos meros consumidores: consumimos ancho de banda y por esto se nos cobra. Hay que solventar la millonaria infraestructura de conectividad y los costos de mantención que, al parecer, sólo se financian mediante pequeños contratos residenciales. Hay muchos lugares donde no es negocio conectar a la gente4  Delegamos a lo..."
@@ -1241,7 +1241,7 @@
                   "/assets/uploads/2006/07/constel03.png"
                ,
     "url": "/2006/10/constel-sharing-marginalia/",
-    "largo": 25453,
+    "largo": 25452,
     "contenido":
       
         "con§tel: an environment to support creativity through shared marginaliaAbstractThis paper examines the CON§TEL1 prototype, a web-based service that supports collective construction and dialogue within a community. This prototype explores the poetic and the dialectic relationship between reader and author mediated by a web system. This relationship takes place in a social environment2 where interaction design explores different ways of empowering readers —as scholars— by enabling significant collaboration.The scholarly community formalizes its knowledge contributions through conventional text formats, such as academic papers; this standardized mediation works as a bricks for building on the top of others as a concrete manifestation of the interconnectedness of the knowledge, both within specific or multidisciplinary domains. Shared ideas and underlying relationships between texts and authors are formalized through citation and commentary; and by these means, academic papers are inscribed in a textual corpus.Because knowledge is primarily shaped around domains or specific subject matters, we could think of all of its formal mediations as a collective attempt for creating a shared space for fixing memory. As a social construction, it aims for integrity and consistency defining shared pathways and lexicons, common fundaments and also new lines of exploration.With this idea, I will examine other web-based systems that afford human metadata and encourage collaborative knowledge generation. This inquiry is focused in the system’s interaction design as how users are empowered for reflecting and responding over the given, what tools are available for the user’s understanding and what feedback users get as they modify and participate in new constructive ways.Introduction  Nos parece que la condición humana es poéica, vale decir que por ella el hombre vive libremente y sin cesar en la vigilia y coraje de hacer mundo3The above statement, besides warning the reader about the nature of the upcoming text, it holds the vision..."
@@ -1257,10 +1257,10 @@
                   "/assets/uploads/2006/10/flex.png"
                ,
     "url": "/2006/10/flex-typeface/",
-    "largo": 783,
+    "largo": 782,
     "contenido":
       
-        "Tipografía Tubular Flex1) realizada en 2006. El principio de diseño de esta fuente es mantener los mismos elementos constitutivos (trazos básicos) para todas las letras, siendo lo único que varía es la disposición de estos elementos. Esto permite animar la interpolación entre las letras, lo que se logra presionando las teclas, desde la “a” a la “z” (sólo minúsculas).Este diseño está altamente influenciado por la fuente Stuv, diseñada por Flor.o (ir a la letra ‘t’ de tipografí­as, y está disponible para bajarse)2. Otra influencia (a la cual hay que rendir homenaje, por cierto) es el principio de ensamblaje de la Super Tipo Veloz de Joan Trochut, con la diferencia -claro- que los traslapes acá son permitidos. La tipografía Flex está diseñada a partir de un juego de 6 piezas."
+        "Tipografía Tubular Flex1 realizada en 2006. El principio de diseño de esta fuente es mantener los mismos elementos constitutivos (trazos básicos) para todas las letras, siendo lo único que varía es la disposición de estos elementos. Esto permite animar la interpolación entre las letras, lo que se logra presionando las teclas, desde la “a” a la “z” (sólo minúsculas).Este diseño está altamente influenciado por la fuente Stuv, diseñada por Flor.o (ir a la letra ‘t’ de tipografí­as, y está disponible para bajarse)2. Otra influencia (a la cual hay que rendir homenaje, por cierto) es el principio de ensamblaje de la Super Tipo Veloz de Joan Trochut, con la diferencia -claro- que los traslapes acá son permitidos. La tipografía Flex está diseñada a partir de un juego de 6 piezas."
       
   },
 
@@ -1337,7 +1337,7 @@
                   "/assets/uploads/2006/07/constel02.png"
                ,
     "url": "/2005/03/constel/",
-    "largo": 5587,
+    "largo": 5586,
     "contenido":
       
         "Este proyecto nace de una interrogante que nos hacemos desde el oficio del Diseño Gráfico: nos preguntamos por el lector del espacio electrónico, por cómo habrá de acceder, citar, usar, anotar, estudiar y colaborar en este nuevo ámbito semántico-digital; en las nuevas plataformas de gestión y manejo de la información, pero sobre todo, nos preguntamos por la naturaleza visual de las nuevas interfaces que habrán de contener implícitas estas nuevas operatividades y de cómo habrán de instaurarse los nuevos códigos de visualización que necesariamente han de volver legible esta complejidad en ciernes.Ciertamente, nuestra afinidad por el cuidado y Diseño de la interfaz de pantalla nos ha llevado a plantearnos un proyecto que en cierta medida sobrepasa a nuestro oficio en cuanto constructor de este espacio, pues hemos debido incorporar a la dimensión de lectura, la dimensión de uso; un libro tiene abierta esta posibilidad de un modo gratuito en el blanco de sus páginas: un lector realiza una anotación al margen de un libro en medio de su estudio. A modo de exégesis de esta realidad operativa, el oficio informático ha de volver esta acción un proceso de incorporación de un metadato (la nueva anotación), que podrá ser solicitado en el futuro y permanecerá latente hasta entonces. Este nuevo modo replantea, trasforma y extiende la orgánica de dicho campo editorial: ahora ese blanco bien puede ser infinito, permitir que muchos anoten y puede ordenarse y regenerarse a petición del lector.Se busca generar una instancia dentro de Internet que permita a los académicos e investigadores de un tema específico ingresar sus documentos al abrigo de una estructura hipertextual mayor. Se trata de un modo de abordar la complejidad semántica desde metaestructuras, que, al igual que los sistemas vivos deben evitar el equilibrio y la estabilidad para estar en constante transformación, reorganización y adaptación. Con formas de innovación y desarrollo lógico, para ser leído con posterioridad, al modo de una nueva fijación externa del conoc..."
