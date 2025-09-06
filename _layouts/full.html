@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
   {% include head.html %}
-  <body>
+  <body class="full-body">
     {% include header.html %}
     <main id="dp-full">
      <article>
@@ -14,7 +14,8 @@
         {%- if page.vimeo -%}
           {%- include vimeo.html video_url=page.vimeo.url -%}
         {%- endif -%}
-        {{ content | convert_footnotes | markdownify }}
+        {{ content }}
+        {{ page.footnotes_html }}
      </article>
     </main>
     {% include footer.html %}

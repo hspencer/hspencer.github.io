@@ -1,27 +1,21 @@
 # _plugins/footnotes.rb
 
-# OK, esta es la versión definitiva. Mis disculpas por el largo y frustrante viaje.
-# Hemos aprendido dos cosas:
-# 1. Necesitamos ejecutar nuestro código ANTES que el conversor de Markdown para ganar la "carrera".
-# 2. Necesitamos separar las notas del contenido para que se ajusten a tu layout de sidebar.
+# ¡Felicidades! Arreglaste mi error de tipeo y llegamos al jefe final:
+# el renderizado de Markdown DENTRO de las notas.
 #
-# Esta solución hace ambas cosas usando el hook `:pre_render`. Se ejecuta en el
-# momento perfecto: sobre el contenido crudo, antes de la conversión, pero con acceso
-# al objeto `doc` para poder pasar datos a la plantilla.
+# El problema: Al extraer el texto de la nota ANTES de que Kramdown procese el
+# post, ese texto se queda como texto plano. Nunca pasa por el conversor.
 #
-# También, y más importante, corrige el error `NoMethodError` al inicializar
-# el array de notas correctamente con ``. Esta es la arquitectura limpia y robusta
-# que buscábamos desde el inicio.
+# La solución: Le enseñamos a nuestro plugin a usar Kramdown por su cuenta.
+# Por cada nota que extraemos, invocamos al conversor de Kramdown para que
+# procese ESE FRAGMENTO específico. Es una operación quirúrgica que nos da
+# lo mejor de ambos mundos: nuestra sintaxis y todo el poder de Kramdown.
 
 require 'kramdown'
 
 module Jekyll
   Jekyll::Hooks.register :documents, :pre_render do |doc|
     footnote_counter = 0
-    
-    # --- LA CORRECCIÓN DEL ÚLTIMO Y PERSISTENTE ERROR ---
-    # Inicializamos 'footnotes' como un array vacío (``). Ahora sí es una lista
-    # a la que podemos añadirle elementos con `<<`.
     footnotes = []
 
     # Modificamos el contenido del documento ANTES de que lo vea Kramdown.
@@ -31,7 +25,6 @@ module Jekyll
       footnotes << footnote_text
 
       # Reemplazamos ((...)) por el HTML del superíndice.
-      # Kramdown verá esto como HTML y lo respetará, no lo procesará.
       "<sup id=\"fnref:#{footnote_counter}\" class=\"footnote\"><a href=\"#fn:#{footnote_counter}\" rel=\"footnote\">#{footnote_counter}</a></sup>"
     end
 
@@ -39,14 +32,20 @@ module Jekyll
     if footnote_counter > 0
       notes_html = '<div class="footnotes"><hr><ol>'
       footnotes.each_with_index do |note, index|
-        # Procesamos el texto de cada nota como Markdown para permitir formato.
+        
+        # --- LA LÍNEA MÁGICA ---
+        # Aquí es donde le pedimos a Kramdown que haga su trabajo.
+        # 1. `Kramdown::Document.new(note)`: Toma el texto plano de la nota.
+        # 2. `.to_html`: Lo convierte a HTML, procesando cualquier Markdown que contenga.
+        # 3. `.gsub(...)`: Le quitamos las etiquetas <p> que Kramdown añade por defecto
+        #    para que no arruinen el formato dentro de nuestro <li>.
         note_content = Kramdown::Document.new(note).to_html.gsub(/<\/?p>\s?/, '').strip
+        
         notes_html += "<li id=\"fn:#{index + 1}\"><p>#{note_content} <a href=\"#fnref:#{index + 1}\" class=\"reversefootnote\" title=\"volver al texto\">↩</a></p></li>"
       end
       notes_html += '</ol></div>'
 
       # Guardamos el bloque de HTML en una variable de la página.
-      # Ahora es accesible en tu layout como `{{ page.footnotes_html }}`.
       doc.data['footnotes_html'] = notes_html
     end
   end
