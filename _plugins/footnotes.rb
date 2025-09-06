@@ -1,33 +1,3 @@
-# _plugins/footnotes.rb
-# -----------------------------------------------------------------------------
-# (( ... )) → gestiona notas al pie accesibles y ubicables en cualquier parte.
-#
-# QUÉ HACE:
-# 1) footnotes_process:
-#    - Recorre el contenido, captura ((nota)).
-#    - Reemplaza cada ((nota)) por una referencia <sup><a …></a></sup> con
-#      atributos ARIA (rol doc-noteref) y anclas bidireccionales.
-#    - Acumula las notas en page['footnotesList'] (array) para renderizarlas
-#      donde quieras (sidebar, footer, etc.).
-# 2) footnotes_render:
-#    - Recibe un array (normalmente page.footnotesList) y lo imprime como:
-#      <div id="footnotes" role="doc-endnotes" aria-labelledby="footnotes-label">
-#        <h3 id="footnotes-label">Notas</h3>
-#        <ol>…</ol>
-#      </div>
-#
-# USO EN LAYOUT:
-#   {{ content | footnotes_process | markdownify }}      <!-- en <article> -->
-#   {{ page.footnotesList | footnotes_render }}          <!-- en el sidebar -->
-#
-# NOTAS:
-# - Orden IMPORTA: primero footnotes_process, luego markdownify, para que
-#   no se muestren los ((...)) crudos en el artículo.
-# - Tras editar _plugins/, reinicia `jekyll serve`.
-# - Si publicas en GitHub Pages (build del servidor), plugins personalizados
-#   no se ejecutan: compila localmente y publica _site/docs o usa Actions.
-# -----------------------------------------------------------------------------
-
 module Jekyll
   module Footnotes
     # ---------------------------------------------------------------------------
@@ -46,18 +16,15 @@ module Jekyll
       counter = 0
       notes = []
 
-      # Regex multilinea, captura no-greedy entre doble paréntesis (( ... ))
-      processed = input.gsub(/\(\((.+?)\)\)/m) do
+      # Regex multilinea, captura solo los dobles paréntesis (( ... )) sin procesar el contenido dentro de ellos
+      processed = input.gsub(/\(\((.+?)\)\)/m) do |match|
         counter += 1
         idx = counter
-
-        # Guarda la nota tal cual (si quieres forzar texto plano, aquí podrías sanear).
-        notes << Regexp.last_match(1).strip
+        note_content = match[2..-2].strip # Extrae y limpia el contenido de las notas
+        notes << note_content
 
         # Inserta referencia con roles ARIA (WAI-ARIA DPUB)
-        # - role="doc-noteref" para la referencia
-        # - id/anchors emparejadas fnref-# ↔ fn-#
-        %Q{<sup class="fn-ref"><a role="doc-noteref" href="#fn-#{idx}" id="fnref-#{idx}" aria-describedby="footnotes-label">#{idx}</a></sup>}
+        %Q{<sup class="fn-ref"><a role="doc-noteref" href="#fn-#{idx}" id="fnref-#{idx}">#{idx}</a></sup>}
       end
 
       # Expone el array en la página actual y marca como procesado
