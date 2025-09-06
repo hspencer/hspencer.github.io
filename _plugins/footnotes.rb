@@ -19,7 +19,7 @@ module Jekyll
     #   \)\)          # Busca el "))" de cierre literal.
     #
     # Esto le permite "saltar" por encima de los paréntesis internos sin detenerse.
-    
+
     nested_parens_regex = /\(\(( (?: [^()]+ | \(.*?\) )+ )\)\)/xm
 
     doc.content.gsub!(nested_parens_regex) do |match|
@@ -34,7 +34,7 @@ module Jekyll
 
     # Si encontramos notas, construimos el bloque de HTML para la lista.
     if footnote_counter > 0
-      notes_html = '<div class="footnotes"><hr><ol>'
+      notes_html = '<div class="footnotes"><h3>Notas</h3><ol>'
       footnotes.each_with_index do |note, index|
         note_content = Kramdown::Document.new(note).to_html.gsub(/<\/?p>\s?/, '').strip
         notes_html += "<li id=\"fn:#{index + 1}\"><p>#{note_content} <a href=\"#fnref:#{index + 1}\" class=\"reversefootnote\" title=\"volver al texto\">↩</a></p></li>"

@@ -256,7 +256,7 @@
      if (existing) existing.remove();
      let container = createDiv().id(containerId).parent("p5");
      let allCats = new Set();
-     postsData.forEach(p => p.categorias.forEach(c => allCats.add(c).));
+     postsData.forEach(p => p.categorias.forEach(c => allCats.add(c)));
      let sorted = [...allCats].sort();
      sorted.forEach(cat => {
        let div = createDiv().parent(container).style('display', 'inline-block');
