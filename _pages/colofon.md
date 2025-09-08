@@ -39,7 +39,7 @@ El presente sitio recoge una amplia gama de contenidos —reflexiones personales
 
 ###### Aspectos constructivos
   - Sitio estático en HTML generado con Jekyll
-  - Plugin para las [notas al pié de página](https://github.com/hspencer/hspencer.github.io/blob/3.2.2/_plugins/footnotes.rb)
+  - Plugin para las [notas al pié de página](https://github.com/hspencer/hspencer.github.io/blob/3.4.4/_plugins/footnotes.rb)
   - SCSS
   - [feed.xml](/feed.xml) y [feed.json](/feed.json) son la forma de distribución del contenido
   - hospedado en [Github](https://github.com/hspencer/dp) sin compilación remota, se publica el sitio compilado localmente dado que al utilizar *custom plugins* no se cumplen las normas de seguridad

@@ -238,17 +238,67 @@
 
         
         
-        <div class="footnotes"><h3>Notas</h3><ol><li id="fn:1"><p><a href="/2003/07/axis-mundae/">Axis Mundae</a> es el poema que trata esa continuidad como un acto finito (de <em>no infinito</em> puesto que tiene un cuanto). <a href="#fnref:1" class="reversefootnote" title="volver al texto">↩</a></p></li><li id="fn:2"><p>La forma no viene de la cosa misma, viene del acto del usuario y por tal, se reubica el origen de la obra: el super-otro <a href="#fnref:2" class="reversefootnote" title="volver al texto">↩</a></p></li></ol></div>
+        
       </sidebar>
 
-      <article>
-        <p><img src="/assets/uploads/2025/05/herbert.jpg" alt="Herbert Spencer" /></p>
+    <article>
+      <a id="btn-citar-herbert-spencer" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-herbert-spencer" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Cómo citar este artículo:</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2008, January 23). <em>Acerca del autor</em>. 
+        En <em>{dp} · doble página</em>. https://herbertspencer.net/about/herbert-spencer/. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>Acerca del autor</em>." <em>{dp} · doble página</em>, 23 January 2008, 
+        https://herbertspencer.net/about/herbert-spencer/. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>Acerca del autor</em>." {dp} · doble página. Publicado el 23 de January de 2008. 
+        https://herbertspencer.net/about/herbert-spencer/. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-herbert-spencer");
+    const modal = document.getElementById("modal-citar-herbert-spencer");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
+      <h1 class="title">Acerca del autor</h1>
+      <p><img src="/assets/uploads/2025/05/herbert.jpg" alt="Herbert Spencer" /></p>
 
 <p>Soy Herbert Spencer González, diseñador gráfico formado en los albores de la era digital, testigo y partícipe de todas las transformaciones radicales de este soporte sobre el cual Ud. querido lector, lee.</p>
 
-<p>Entre 1991-98 Internet redefinió la publicación y la comunicación gráfica, impulsándonos a explorar nuevas formas de interacción y comprensión. Aparece lo radical y fragmentador del hipertexto y la nueva continuidad de la lectura<sup id="fnref:1" class="footnote"><a href="#fn:1" rel="footnote">1</a></sup></p>
+<p>Entre 1991-98 Internet redefinió la publicación y la comunicación gráfica, impulsándonos a explorar nuevas formas de interacción y comprensión. Aparece lo radical y fragmentador del hipertexto y la nueva continuidad de la lectura((<a href="/2003/07/axis-mundae/">Axis Mundae</a> es el poema que trata esa continuidad como un acto finito (de <em>no infinito</em> puesto que tiene un cuanto).))</p>
 
-<p>El diseño gráfico, siempre en evolución, nos llevó desde la poiética de la forma hasta la retórica de los públicos<sup id="fnref:2" class="footnote"><a href="#fn:2" rel="footnote">2</a></sup>. A medida que el diseño digital cobraba protagonismo, mi enfoque se centró en el usuario, en su contexto y necesidades, en un diseño de segundo orden, donde la forma es resultado de la empatía y comprensión.</p>
+<p>El diseño gráfico, siempre en evolución, nos llevó desde la poiética de la forma hasta la retórica de los públicos((La forma no viene de la cosa misma, viene del acto del usuario y por tal, se reubica el origen de la obra: el super-otro)). A medida que el diseño digital cobraba protagonismo, mi enfoque se centró en el usuario, en su contexto y necesidades, en un diseño de segundo orden, donde la forma es resultado de la empatía y comprensión.</p>
 
 <p>Con el advenimiento de la Web 2.0, presenciamos la transformación de las estructuras editoriales hacia plataformas colaborativas y sociales, reflejando una democratización en la organización y creación de contenido. Ahora último ha habido un retroceso hacia conversación centralizada. <em>The era of blogs is over</em>, lamentablemente. Creo que una soberanía digital se hace necesaria cada día más.</p>
 
@@ -328,7 +378,14 @@
 </script>
 
 
-      </article>
+      <script src="https://utteranc.es/client.js"
+        repo="hspencer/hspencer.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+    </article>
     </main>
     <footer>
    <p>
@@ -342,7 +399,7 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 7 September 2025 - <a href="/feed.xml">Feed RSS</a>.
+     Última actualización: 8 September 2025 - <a href="/feed.xml">Feed RSS</a>.
    </p>
  </footer>
     <!-- Google tag (gtag.js) -->

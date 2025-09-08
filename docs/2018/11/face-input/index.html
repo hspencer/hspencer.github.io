@@ -264,7 +264,12 @@
             <a href="/2017/02/tecnica-y-diseno/">Técnica y Diseño</a><span class="tag">interacción</span><span class="tag">interfaz</span></li></ul>
     </div>
 
-      <!-- Link a la cita -->
+      <!-- Footnotes -->
+      
+      
+    </sidebar>
+
+    <article>
       <a id="btn-citar-face-input" class="btn-citar">&#x301E;</a>
   
   <div id="modal-citar-face-input" class="modal-citar">
@@ -314,20 +319,14 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-
-      <!-- Footnotes -->
-      <div class="footnotes"><h3>Notas</h3><ol><li id="fn:1"><p>Brandt, L. (2013). <em>The Communicative Mind: A Linguistic Exploration of Conceptual Integration and Meaning Construction</em>. Cambridge Scholars Publishing. <a href="#fnref:1" class="reversefootnote" title="volver al texto">↩</a></p></li><li id="fn:2"><p>Acá surgió la idea, un poco más complejo y por lo tanto menos accesible, de mensar inputs bidimensionales, siguiendo 2 ejes en la línea de lo que nos muestra Edward Tufte en este gráfico: <br /><br /><img src="/assets/uploads/2018/11/tufte-wolf.png" alt="" />. <a href="#fnref:2" class="reversefootnote" title="volver al texto">↩</a></p></li></ol></div>
-      
-    </sidebar>
-
-    <article>
+      <h1 class="title">HTML input: Pictograma</h1>
       <h3 id="hipótesis-mapear-emociones-a-través-de-pictogramas-como-método-de-entrada-de-datos">Hipótesis: Mapear emociones a través de pictogramas como método de entrada de datos</h3>
 
 <p>En el ámbito de la <a href="http://accesibilidad-inclusion.cl">investigación inclusiva</a> y el <a href="https://dl.acm.org/doi/10.1145/3385010.3385023">trabajo con personas con discapacidad intelectual</a>, nuestro equipo ha desarrollado herramientas específicas para la recolección de datos. Estos instrumentos deben ser concebidos desde su origen bajo principios de accesibilidad cognitiva, integrando la accesibilidad como un componente esencial de su diseño.</p>
 
 <p>Planteamos la hipótesis de que el uso de pictogramas faciales para representar emociones podría constituir un mecanismo accesible y eficaz para la entrada de datos en contextos donde la comunicación simbólica convencional presenta barreras. La expresión facial es una de las formas primarias de comunicación interpersonal, y los seres humanos estamos especialmente capacitados para interpretarlas. Nuestras habilidades para leer rostros y detectar sutilezas expresivas han sido fundamentales para establecer alineaciones cognitivas en contextos sociales, permitiendo anticipar intenciones, emociones y respuestas.</p>
 
-<p>Esta idea se fundamenta en la teoría semiótica cognitiva desarrollada por Line Brandt en <em>The Communicative Mind</em>, donde se plantea que la comunicación no es simplemente un intercambio de señales, sino un proceso mental y social en el que dos o más mentes se alinean temporalmente en una escena compartida de significación. Esta “mente comunicativa” emerge de la coordinación dinámica entre expresiones (lo que se manifiesta en un cuerpo) y comprensiones (lo que se configura en una mente), en un contexto determinado. En este sentido, las expresiones faciales cumplen una función de alto nivel, ya que condensan información emocional compleja en patrones reconocibles que operan como “anclas” para la interpretación situacional<sup id="fnref:1" class="footnote"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
+<p>Esta idea se fundamenta en la teoría semiótica cognitiva desarrollada por Line Brandt en <em>The Communicative Mind</em>, donde se plantea que la comunicación no es simplemente un intercambio de señales, sino un proceso mental y social en el que dos o más mentes se alinean temporalmente en una escena compartida de significación. Esta “mente comunicativa” emerge de la coordinación dinámica entre expresiones (lo que se manifiesta en un cuerpo) y comprensiones (lo que se configura en una mente), en un contexto determinado. En este sentido, las expresiones faciales cumplen una función de alto nivel, ya que condensan información emocional compleja en patrones reconocibles que operan como “anclas” para la interpretación situacional((Brandt, L. (2013). <em>The Communicative Mind: A Linguistic Exploration of Conceptual Integration and Meaning Construction</em>. Cambridge Scholars Publishing.)).</p>
 
 <div id="canvasContainer"></div>
 <div id="qualification">
@@ -353,7 +352,7 @@
     <p><strong><a href="https://github.com/hspencer/face-qualify"><code class="language-plaintext highlighter-rouge">face-qualify</code></a></strong>: Una biblioteca complementaria que ofrece una interfaz sencilla para que los usuarios califiquen elementos utilizando expresiones faciales en una escala de cinco niveles escalonados.</p>
   </li>
   <li>
-    <p><strong><a href="https://github.com/hspencer/face-edit"><code class="language-plaintext highlighter-rouge">face-edit</code></a></strong>: Una herramienta desarrollada con P5.js para editar y definir nuevas expresiones faciales, permitiendo la personalización de pictogramas utilizados en las herramientas anteriores para su interpolación<sup id="fnref:2" class="footnote"><a href="#fn:2" rel="footnote">2</a></sup> .</p>
+    <p><strong><a href="https://github.com/hspencer/face-edit"><code class="language-plaintext highlighter-rouge">face-edit</code></a></strong>: Una herramienta desarrollada con P5.js para editar y definir nuevas expresiones faciales, permitiendo la personalización de pictogramas utilizados en las herramientas anteriores para su interpolación((Acá surgió la idea, un poco más complejo y por lo tanto menos accesible, de mensar inputs bidimensionales, siguiendo 2 ejes en la línea de lo que nos muestra Edward Tufte en este gráfico: <br /><br /><img src="/assets/uploads/2018/11/tufte-wolf.png" alt="" />.)) .</p>
   </li>
 </ul>
 
@@ -368,7 +367,6 @@
 <p>Aunque este resultado no invalida la idea de utilizar pictogramas faciales como canal expresivo, sí destaca la necesidad de incorporar una fase más robusta de codiseño, especialmente en la elección y validación de las expresiones utilizadas. La cognición no es un proceso automático de decodificación, sino una construcción contextual e intersubjetiva. En consecuencia, el diseño de interfaces accesibles debe considerar tanto la legibilidad formal de los símbolos como también su interpretabilidad cultural, afectiva y situacional.</p>
 
 <p>Desde estas humildes herramientas ha quedado claro que cualquier propuesta que busque trabajar con emociones como entrada de datos debe estar sustentada en una comprensión profunda de los procesos comunicativos. Más que en su dimensión técnica o perceptual, en su dimensión intersubjetiva y cultural.</p>
-
 
       <script src="https://utteranc.es/client.js"
         repo="hspencer/hspencer.github.io"
@@ -391,7 +389,7 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 7 September 2025 - <a href="/feed.xml">Feed RSS</a>.
+     Última actualización: 8 September 2025 - <a href="/feed.xml">Feed RSS</a>.
    </p>
  </footer>
   <!-- Google tag (gtag.js) -->

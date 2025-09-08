@@ -1,3 +1,10 @@
+/*
+
+
+         {dp} - doble página
+
+*/
+
 @use "variables" as vars;
 
 body {
@@ -132,22 +139,6 @@ header {
             }
         }
 
-        a.btn-citar {
-            position: absolute;
-            bottom: 0;
-            display: inline-block;
-            line-height: 0;
-            font-size: 3rem;
-            cursor: pointer;
-            border-radius: 5px;
-            color: vars.$color-soft-line;
-            text-shadow: -1px -1px 2px white;
-
-            &:hover {
-                color: vars.$color-link;
-            }
-        }
-
         .related-posts {
             text-align: right;
             margin-top: 2em;
@@ -219,11 +210,31 @@ header {
             color: vars.$color-title;
         }
 
+        h1.title{display: none;}
+
         h4,
         h5 {
             text-transform: uppercase;
             letter-spacing: 0.08ex;
             font-weight: 500;
+        }
+
+        /* quote button */
+        a.btn-citar {
+            position: absolute;
+            top: 0;
+            right: -2.3ex;
+            display: inline-block;
+            line-height: 0;
+            font-size: 3rem;
+            cursor: pointer;
+            border-radius: 5px;
+            color: vars.$color-soft-line;
+            text-shadow: -1px -1px 2px white;
+
+            &:hover {
+                color: vars.$color-link;
+            }
         }
 
         /* links en párrafos listas y footnotes */
@@ -698,9 +709,9 @@ footer {
         background-color: vars.$color-dp-bg;
         margin: 10% auto;
         padding: 2rem;
-        border: 1px solid #0000006d;
-        width: 93%;
-        max-width: 600px;
+        // border: 1px solid #0000006d;
+        width: 40em;
+        max-width: 90vw;
         border-radius: 1ex;
         position: relative;
         font-size: 85%;
@@ -883,25 +894,60 @@ ul.search-results-list {
 }
 
 
-/* responsive part */
+/* 
+    Responsive specs for small screens
 
+            .-------------------.
+            |  _______________   |
+            | |               |  |
+            | |               |  |
+            | |               |  |
+            | |               |  |
+            | |               |  |
+            | |               |  |
+            | |               |  |
+            | |_______________|  |
+            |    _________       |
+            |   |         |      |
+            |   |  O   O  |      |
+            |   |    >    |      |
+            |   |_________|      |
+            '--------------------'
+
+*/
+
+/* tablet downwards */
 @media (max-width: 768px) {
     form#search-form {
         display: none;
     }
 
+    body{
+        background-color: vars.$color-dp-bg;
+    }
     #dp {
         grid-template-columns: 1fr;
-        background: vars.$color-dp-bg;
-        padding: 1em;
+        background: transparent; // .$color-dp-bg;
+        padding: 0; // 1em;
+        box-shadow: none;
 
         sidebar {
-            .title {
-                font-size: 2.5rem;
+            order: 2;
+            h1.title {
+                display: none;
             }
         }
 
         article {
+            order: 1;
+            h1.title {
+                font-family: vars.$font-serif;
+                font-weight: 200;
+                color: vars.$color-red;
+                margin: 1em 0 0 0;
+                font-size: 2.5rem;
+                display: block;
+            }
             table {
                 margin: 0 -1.5em;
                 border-radius: 0;
@@ -917,6 +963,17 @@ ul.search-results-list {
                     }
                 }
                 
+            }
+
+            a.btn-citar {
+                top: 2ex;
+                right: -1.2ex;
+            }
+
+            .modal-contenido {
+                margin: 0;
+                width: 85%;
+                border-radius: 0;
             }
         }
     }
