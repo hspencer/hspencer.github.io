@@ -5,7 +5,7 @@
 
 */
 
-@use "variables" as vars;
+@use "variables"as vars;
 
 body {
     background-color: vars.$color-body-bg;
@@ -88,6 +88,24 @@ header {
     }
 }
 
+/* quote button */
+a.btn-citar {
+    position: absolute;
+    top: 2ex;
+    right: -1.2ex;
+    display: inline-block;
+    line-height: 0;
+    font-size: 3rem;
+    cursor: pointer;
+    border-radius: 5px;
+    color: vars.$color-soft-line;
+    text-shadow: -1px -1px 2px white;
+
+    &:hover {
+        color: vars.$color-link;
+    }
+}
+
 #dp {
     background-color: vars.$color-dp-bg;
     background: url("/assets/css/spine.svg"), vars.$page-gradient;
@@ -98,7 +116,7 @@ header {
     border-radius: 0.78ex;
     box-shadow: 0 0 10px #00000022;
 
-    > * {
+    >* {
         min-width: 0; // evita que el contenido fuerce el ancho
         overflow-wrap: break-word;
         // outline: 1px dashed vars.$color-soft-line;
@@ -112,6 +130,10 @@ header {
     a {
         text-decoration: none;
         color: vars.$color-link;
+
+        &.btn-citar {
+            color: vars.$color-soft-line;
+        }
     }
 
     sidebar {
@@ -210,7 +232,9 @@ header {
             color: vars.$color-title;
         }
 
-        h1.title{display: none;}
+        h1.title {
+            display: none;
+        }
 
         h4,
         h5 {
@@ -219,28 +243,10 @@ header {
             font-weight: 500;
         }
 
-        /* quote button */
-        a.btn-citar {
-            position: absolute;
-            top: 0;
-            right: -2.3ex;
-            display: inline-block;
-            line-height: 0;
-            font-size: 3rem;
-            cursor: pointer;
-            border-radius: 5px;
-            color: vars.$color-soft-line;
-            text-shadow: -1px -1px 2px white;
-
-            &:hover {
-                color: vars.$color-link;
-            }
-        }
-
         /* links en párrafos listas y footnotes */
-        p > a,
-        ul > li > a,
-        ol > li > a{
+        p>a,
+        ul>li>a,
+        ol>li>a {
             position: relative;
             color: vars.$color-link;
             text-decoration: none;
@@ -301,7 +307,7 @@ header {
                 }
             }
 
-            > img:only-child {
+            >img:only-child {
                 display: block;
                 margin: 0 auto;
             }
@@ -341,7 +347,7 @@ header {
             }
         }
 
-        sup.footnote a{
+        sup.footnote a {
             color: vars.$color-red;
         }
 
@@ -359,8 +365,8 @@ header {
 
                 .image-container {
                     position: relative;
-                    transition: max-height 2s ease; 
-                    max-height: 7em; 
+                    transition: max-height 2s ease;
+                    max-height: 7em;
                     overflow: hidden;
 
                     .image-overlay {
@@ -376,7 +382,7 @@ header {
                         border-radius: 3px;
                         display: block;
                         width: 100%;
-                        height: auto; 
+                        height: auto;
                         margin: 0;
                     }
                 }
@@ -391,8 +397,8 @@ header {
                     }
 
                     .image-container {
-                        transition: all 2s ease; 
-                        max-height: 20em; 
+                        transition: all 2s ease;
+                        max-height: 20em;
                     }
                 }
             }
@@ -417,6 +423,7 @@ header {
         }
 
         .center-poem {
+
             h2,
             h3 {
                 text-align: center;
@@ -452,12 +459,12 @@ header {
             }
         }
     }
- 
-.footnotes {
+
+    .footnotes {
         font-size: 0.75em;
         margin-top: 2rem;
 
-        h3{
+        h3 {
             font-size: .7rem;
             text-transform: uppercase;
             margin: 10rem 0 0 0;
@@ -468,15 +475,16 @@ header {
         ol {
             padding-left: 4.5rem;
 
-            li{
+            li {
                 margin-bottom: 1em;
-                &::marker{
+
+                &::marker {
                     color: vars.$color-red;
                     font-size: 70%;
                     font-weight: 800;
                 }
             }
-            
+
         }
 
         a.footnote-ref {
@@ -514,13 +522,13 @@ header {
                 border: 1px solid transparent;
             }
 
-            input[type="checkbox"]:checked + span {
+            input[type="checkbox"]:checked+span {
                 color: vars.$color-strong;
                 border-top: transparent;
                 border-bottom: 1px solid vars.$color-text;
             }
 
-            input[type="checkbox"]:not(:checked) + span {
+            input[type="checkbox"]:not(:checked)+span {
                 color: vars.$color-lighter; // Color del texto cuando el checkbox no está seleccionado
                 border-bottom: transparent;
                 border-top: 1px solid vars.$color-lighter;
@@ -544,7 +552,9 @@ header {
 }
 
 #dp-full {
-    a {
+    position: relative;
+
+    hhh a {
         text-decoration: none;
         color: vars.$color-link;
     }
@@ -559,11 +569,14 @@ header {
         color: vars.$color-title;
     }
 
-    .manifesto{
+    .manifesto {
         max-width: 50rem;
         line-height: 175%;
         margin: 3em auto;
-        h1, h2, h3{
+
+        h1,
+        h2,
+        h3 {
             font-family: vars.$font-sans;
             font-size: 1.35rem;
             margin: 5em 0 1em 0;
@@ -807,9 +820,11 @@ footer {
         border-radius: 4px;
         box-sizing: border-box;
         width: 100%;
+
         &::placeholder {
             color: vars.$color-light;
         }
+
         &:focus {
             outline: none;
         }
@@ -838,7 +853,7 @@ footer {
     }
 
     // Cambiar el color de la lupa cuando el input está enfocado
-    input[type="text"]:focus + .search-button {
+    input[type="text"]:focus+.search-button {
         color: vars.$color-red; // La lupa se vuelve del color de texto al enfocar
     }
 }
@@ -856,6 +871,7 @@ ul.search-results-list {
                 h3.result-title {
                     color: vars.$color-red !important;
                 }
+
                 .result-excerpt {
                     color: vars.$color-strong;
                 }
@@ -922,9 +938,10 @@ ul.search-results-list {
         display: none;
     }
 
-    body{
+    body {
         background-color: vars.$color-dp-bg;
     }
+
     #dp {
         grid-template-columns: 1fr;
         background: transparent; // .$color-dp-bg;
@@ -933,6 +950,7 @@ ul.search-results-list {
 
         sidebar {
             order: 2;
+
             h1.title {
                 display: none;
             }
@@ -940,35 +958,36 @@ ul.search-results-list {
 
         article {
             order: 1;
+
             h1.title {
-                font-family: vars.$font-serif;
-                font-weight: 200;
-                color: vars.$color-red;
-                margin: 1em 0 0 0;
-                font-size: 2.5rem;
                 display: block;
+                color: vars.$color-title;
+                font-family: vars.$font-serif;
+                font-weight: 100;
+                font-size: 3rem;
+                margin: 1em 0 0.5em 0;
             }
+
             table {
                 margin: 0 -1.5em;
                 border-radius: 0;
             }
-            .last-posts{
-                a.post-item{
-                    .image-container{
+
+            .last-posts {
+                a.post-item {
+                    .image-container {
                         max-height: none;
                         overflow: visible;
-                        .image-overlay{
+
+                        .image-overlay {
                             background: none;
                         }
                     }
                 }
-                
+
             }
 
-            a.btn-citar {
-                top: 2ex;
-                right: -1.2ex;
-            }
+
 
             .modal-contenido {
                 margin: 0;
@@ -980,9 +999,9 @@ ul.search-results-list {
 }
 
 @media (max-width: 480px) {
-    #dp{
-        article{
-            .last-posts{
+    #dp {
+        article {
+            .last-posts {
                 grid-template-columns: 1fr;
             }
         }
@@ -990,10 +1009,15 @@ ul.search-results-list {
 }
 
 /* 1) Restablecer el puntero para enlaces reales */
-a[href] { cursor: pointer; }
+a[href] {
+    cursor: pointer;
+}
 
 /* 2) Si hay resets/overlays que afectan hijos dentro del <a>, cúbralos: */
-a[href], a[href] * { cursor: pointer; }
+a[href],
+a[href] * {
+    cursor: pointer;
+}
 
 /* 3) Si detecta un selector muy fuerte o un reset con all:unset,
    use temporalmente !important hasta limpiar el origen: 

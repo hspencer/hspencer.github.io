@@ -39,6 +39,7 @@ El presente sitio recoge una amplia gama de contenidos —reflexiones personales
 
 ###### Aspectos constructivos
   - Sitio estático en HTML generado con Jekyll
+  - la doble página empieza recién a los <strong>768</strong> pixeles de ancho; antes es una simple página vertical de teléfono, ya con una tablet horizontal florece
   - Plugin para las [notas al pié de página](https://github.com/hspencer/hspencer.github.io/blob/3.4.4/_plugins/footnotes.rb)
   - SCSS
   - [feed.xml](/feed.xml) y [feed.json](/feed.json) son la forma de distribución del contenido
