@@ -553,12 +553,6 @@ a.btn-citar {
 
 #dp-full {
     position: relative;
-
-    hhh a {
-        text-decoration: none;
-        color: vars.$color-link;
-    }
-
     .title {
         font-family: vars.$font-sans;
         font-weight: 200;
@@ -670,7 +664,7 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #ccc;
+        background: transparent; //  #ccc;
         transition: background 0.2s;
         font-size: 0.875rem;
         text-decoration: none;
@@ -679,12 +673,11 @@ footer {
     }
 
     a:hover {
-        background: #999;
+        background: rgba(0, 0, 0, 0.11)
     }
 
     .actual {
-        background: #333;
-        color: #fff;
+        outline: 2px solid rgba(0, 0, 0, 0.13);
     }
 }
 
@@ -995,6 +988,15 @@ ul.search-results-list {
                 border-radius: 0;
             }
         }
+    }
+
+    #dp-full {
+        .title {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+
     }
 }
 
