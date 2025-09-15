@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-09-14T09:43:38+12:00</updated>
+  <updated>2025-09-16T10:46:22+12:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -23,11 +23,15 @@
 
   &lt;p&gt;Vivimos un momento epocal en que los sistemas políticos, económicos y tecnológicos están alcanzando sus límites, generando incertidumbre e invitando a la transformación. En este tiempo, estos principios proponen un camino para el Diseño, como práctica y como disciplina colectiva: preservar su sentido humano construyendo nuevas formas de vida y de relación que no pueden anticiparse del todo. El Diseño, entendido como la anticipación dibujada, planificada o proyectada de lo que vendrá, siempre está abierto a lo imprevisible. Estos principios buscan orientar esa apertura para que lo que emerja permanezca arraigado, hospitalario y compartido.&lt;/p&gt;
 
+  &lt;h2 id=&quot;el-diseo-es-potico&quot;&gt;El Diseño es Poético&lt;/h2&gt;
+
+  &lt;p&gt;El Diseño es inteligencia que se vuelve imaginación. Como el navegante que, leyendo vientos y latitudes, devino cartógrafo y pudo representar un horizonte desde lo alto, el Diseño crea mapas para lo cotidiano. Reimagina y reapasiona la vida cotidiana porque siempre la puede ver como nueva.&lt;/p&gt;
+
+  &lt;p&gt;El Diseño hace lugar, tiempo, experiencia y relato: abre espacio para lo que no existía y le da forma a lo improbable. Es la huella de la historia y, al mismo tiempo, la anticipación de lo venidero. Su poesía consiste en reunir lo disperso, otorgar sentido, y volver visible aquello que aún no tenía forma. Nos otorga un nuevo lugar desde donde estar.&lt;/p&gt;
+
   &lt;h2 id=&quot;el-diseo-pertenece-a-la-polis&quot;&gt;El Diseño Pertenece a la Polis&lt;/h2&gt;
 
-  &lt;p&gt;El Diseño existe entre las personas, como el lenguaje. Pertenece a la sociedad porque da forma a la vida compartida: interfaces, objetos y sistemas facilitan encuentros, establecen umbrales de acceso y distribuyen esfuerzo y atención. El Diseño responde ante el mundo colectivo y reafirma al &lt;em&gt;nosotros&lt;/em&gt;. Su medida es la hospitalidad y la utilidad, no la autoría artística. Codifica relaciones tan poderosamente como las instituciones, y puede abrir o cerrar futuros.&lt;/p&gt;
-
-  &lt;p&gt;Esto exige una práctica situada: un Diseño atento a lo que funciona, dónde y con quién. El pragmatismo aquí es un camino de los actos y gestos repetidos que sostienen la vida y le dan &lt;em&gt;forma&lt;/em&gt;. La belleza del Diseño surge como una elevada integración de dimensiones materiales, económico-utilitarias, sociales y culturales, haciendo rimar la bondad con la verdad. El Diseño debe hablar con los lenguajes de los lugares—tradiciones, paisajes, comunidades, ecosistemas, reconociendo también al mundo &lt;em&gt;más-que-humano&lt;/em&gt;. Pertenecer a la polis es tratar la tecnología como un medio cívico: claro, mantenible en comunidad, culturalmente resonante, reparable y adaptable. Implica diseñar con custodios, probar en contexto, documentar decisiones y fomentar nuestra reimaginación constante.&lt;/p&gt;
+  &lt;p&gt;El Diseño existe entre las personas, como el lenguaje. Pertenece a la sociedad porque da forma a la vida compartida: signos, objetos, interfaces y sistemas facilitan encuentros, establecen umbrales y distribuyen las miradas y las fuerzas. El Diseño responde ante el colectivo y reafirma al &lt;em&gt;nosotros&lt;/em&gt;. Su medida es relacional, es con el y lo otro, en relación. Esto exige una práctica situada: un Diseño atento a lo que funciona, dónde y con quién. El pragmatismo aquí es un camino de los actos y gestos repetidos que sostienen la vida y le dan &lt;em&gt;forma&lt;/em&gt;. La belleza del Diseño surge como una elevada integración de dimensiones materiales, económico-utilitarias, sociales y culturales, haciendo rimar bueno, bello y verdadero El Diseño debe hablar con los lenguajes de los lugares, tradiciones, paisajes, comunidades, ecosistemas; reconociendo también al mundo &lt;em&gt;más-que-humano&lt;/em&gt;. Pertenecer a la polis es tratar la tecnología como un medio cívico: claro, mantenible en comunidad, culturalmente resonante, adaptable y transformable. Implica diseñar con custodios, probar en contexto, documentar decisiones y fomentar nuestra reimaginación constante.&lt;/p&gt;
 
   &lt;h2 id=&quot;el-diseo-celebra-la-condicin-humana&quot;&gt;El Diseño Celebra la Condición Humana&lt;/h2&gt;
 
@@ -71,11 +75,9 @@
 
   &lt;p&gt;El código abierto es una expresión tangible de esa transparencia. Cuando el código fuente, la documentación de Diseño y los flujos de trabajo están disponibles públicamente, se crean condiciones para la supervisión y la replicación comunitaria. Cualquiera puede inspeccionar, contribuir o adaptar el trabajo—trasladando el poder de la autoridad singular hacia el cuidado colectivo.&lt;/p&gt;
 
-  &lt;h2 id=&quot;el-diseo-cultiva-la-custodia-del-oficio&quot;&gt;El Diseño Cultiva la Custodia del Oficio&lt;/h2&gt;
+  &lt;h2 id=&quot;el-diseo-educa-y-se-educa-a-s-mismo&quot;&gt;El Diseño Educa y se Educa a Sí Mismo&lt;/h2&gt;
 
-  &lt;p&gt;El Diseño carece de la custodia que otras profesiones mantienen. Su apertura hacia la persona no-diseñadora es valiosa, pero también lo deja vulnerable a ser capturado por intereses ajenos al bienestar público. La custodia propone construir estructuras colectivas: espacios de crítica, reflexión ética y responsabilidad.&lt;/p&gt;
-
-  &lt;p&gt;Los diseñadores deben cuidar no solo de su práctica individual, sino de la disciplina misma. Un gremio de Diseño, fundamentado en responsabilidad, cuidado y criticidad, protege el horizonte ético de la disciplina. Garantiza que el Diseño siga siendo una práctica de responsabilidad con la Polis, con la cultura viva y con el futuro.&lt;/p&gt;
+  &lt;p&gt;Los artefactos del diseño proponen su propia forma para usarse, desplegarse y celebrarse. Con esto, el diseño renueva la cultura y se transmite en el tiempo a las siguientes generaciones. Cada decisión de diseño educa —explícita o implícitamente— sobre cómo convivir con los otros y con lo técnico. Y el Diseño también se educa a sí mismo. Aprende de sus caminos, se ensancha y corrije con la crítica, se refina con la práctica y se renueva en la interacción con quienes lo habitan. El Diseño es oficio que se mantiene vivo en la reciprocidad: al mismo tiempo que enseña, se deja enseñar, y así preserva su capacidad de participar plenamente en lo que siempre cambia.&lt;/p&gt;
 
   &lt;h3 id=&quot;corolario&quot;&gt;Corolario&lt;/h3&gt;
 

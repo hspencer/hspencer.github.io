@@ -9,7 +9,7 @@ categories:
 - ideas
 tags: [Diseño de interacción, manifiesto, futuro]
 image:
-  path: /assets/pintura/01.png
+  path: assets/uploads/2025/09/yellow-manifest.png
 ---
 
 <div class='manifesto'>
@@ -20,18 +20,21 @@ A diferencia del arte, que puede existir sin responder a nada más que a sí mis
 
 Vivimos un momento epocal en que los sistemas políticos, económicos y tecnológicos están alcanzando sus límites, generando incertidumbre e invitando a la transformación. En este tiempo, estos principios proponen un camino para el Diseño, como práctica y como disciplina colectiva: preservar su sentido humano construyendo nuevas formas de vida y de relación que no pueden anticiparse del todo. El Diseño, entendido como la anticipación dibujada, planificada o proyectada de lo que vendrá, siempre está abierto a lo imprevisible. Estos principios buscan orientar esa apertura para que lo que emerja permanezca arraigado, hospitalario y compartido.
 
+## El Diseño es Poético
+
+El Diseño es inteligencia que se vuelve imaginación. Como el navegante que, leyendo vientos y latitudes, devino cartógrafo y pudo representar un horizonte desde lo alto, el Diseño crea mapas para lo cotidiano. Reimagina y reapasiona la vida cotidiana porque siempre la puede ver como nueva.
+
+El Diseño hace lugar, tiempo, experiencia y relato: abre espacio para lo que no existía y le da forma a lo improbable. Es la huella de la historia y, al mismo tiempo, la anticipación de lo venidero. Su poesía consiste en reunir lo disperso, otorgar sentido, y volver visible aquello que aún no tenía forma. Nos otorga un nuevo lugar desde donde estar.
+
 ## El Diseño Pertenece a la Polis
 
-El Diseño existe entre las personas, como el lenguaje. Pertenece a la sociedad porque da forma a la vida compartida: interfaces, objetos y sistemas facilitan encuentros, establecen umbrales de acceso y distribuyen esfuerzo y atención. El Diseño responde ante el mundo colectivo y reafirma al *nosotros*. Su medida es la hospitalidad y la utilidad, no la autoría artística. Codifica relaciones tan poderosamente como las instituciones, y puede abrir o cerrar futuros.
-
-Esto exige una práctica situada: un Diseño atento a lo que funciona, dónde y con quién. El pragmatismo aquí es un camino de los actos y gestos repetidos que sostienen la vida y le dan *forma*. La belleza del Diseño surge como una elevada integración de dimensiones materiales, económico-utilitarias, sociales y culturales, haciendo rimar la bondad con la verdad. El Diseño debe hablar con los lenguajes de los lugares—tradiciones, paisajes, comunidades, ecosistemas, reconociendo también al mundo *más-que-humano*. Pertenecer a la polis es tratar la tecnología como un medio cívico: claro, mantenible en comunidad, culturalmente resonante, reparable y adaptable. Implica diseñar con custodios, probar en contexto, documentar decisiones y fomentar nuestra reimaginación constante.
+El Diseño existe entre las personas, como el lenguaje. Pertenece a la sociedad porque da forma a la vida compartida: signos, objetos, interfaces y sistemas facilitan encuentros, establecen umbrales y distribuyen las miradas y las fuerzas. El Diseño responde ante el colectivo y reafirma al *nosotros*. Su medida es relacional, es con el y lo otro, en relación. Esto exige una práctica situada: un Diseño atento a lo que funciona, dónde y con quién. El pragmatismo aquí es un camino de los actos y gestos repetidos que sostienen la vida y le dan *forma*. La belleza del Diseño surge como una elevada integración de dimensiones materiales, económico-utilitarias, sociales y culturales, haciendo rimar bueno, bello y verdadero El Diseño debe hablar con los lenguajes de los lugares, tradiciones, paisajes, comunidades, ecosistemas; reconociendo también al mundo *más-que-humano*. Pertenecer a la polis es tratar la tecnología como un medio cívico: claro, mantenible en comunidad, culturalmente resonante, adaptable y transformable. Implica diseñar con custodios, probar en contexto, documentar decisiones y fomentar nuestra reimaginación constante.
 
 ## El Diseño Celebra la Condición Humana
 
 El Diseño tiene un arte propio: el arte de celebrar la vida humana en su profundidad y diversidad. Afirma que vivir trasciende lo meramente funcional. La belleza se manifiesta en los actos y gestos que configuran cómo habitamos el mundo a través de rituales, tradiciones, lenguas y creatividad cotidiana.
 
 Cuando el Diseño sostiene la dignidad, crea espacios para la convivencia, la expresión cultural y la renovación de la vida diaria. Florece en la pluralidad, acogiendo distintas formas de expresión mientras da forma a nuevas maneras de habitar y de relacionarse. Honra los valores humanos, no como ideales abstractos sino como experiencias vividas: frágiles, diversas, siempre en devenir. El Diseño celebra en lugar de objetivar la condición humana.
-
 
 ## El Diseño Fortalece el Poder Colectivo
 
@@ -46,13 +49,11 @@ El Diseño muestra su mayor belleza cuando acoge. Un Diseño hospitalario antici
 
 La hospitalidad implica apertura, claridad, legibilidad y transparencia de proceso y propósito. La accesibilidad no es otra cosa que la hospitalidad del Diseño. Todo artefacto tiene un revés: costuras, lógica y estructuras ocultas. Mostrar ese revés es volver legible el proceso, hacer visible el tejido. La belleza de la verdad se reconoce en lo enmarañado y lo inacabado, porque desvela cómo llegó a ser lo que es e invita a su apropiación y replicabilidad. La hospitalidad en el Diseño enseña: invita a la apropiación, la reparación, la creación. Con esta generosidad, el Diseño se convierte en un vehículo de cultura, transformando lo cotidiano en un tejido compartido de belleza.
 
-
 ## El Diseño También Puede Ser Siniestro
 
 El Diseño posee poder, pero los diseñadores a menudo carecen de él. Ese poder fluye a través de nosotros, empleado para la conversión, el control y la extracción. La tecnología se puede emplear para modificar el comportamiento del otro. En este contexto han surgido los “patrones oscuros”: tácticas sistémicas y reconocidas—estrategias engañosas de interfaz que manipulan, coaccionan y socavan el consentimiento. No son errores, sino elecciones deliberadas que habilitan la manipulación.
 
 A pesar de un poder personal limitado, los diseñadores cargamos gran responsabilidad. La negativa es nuestro primer instrumento de agencia. Decir “no” no es complacencia, es resistencia. Debemos sostener la claridad, el consentimiento genuino, la reversibilidad, la argumentación documentada y la transparencia. Rehusar la manipulación es reafirmar la integridad. Configura entornos de confianza, autonomía y dignidad, resistiendo lo incorrecto mediante una postura ética con el oficio.
-
 
 ## El Diseño Siembra Soberanía Tecnológica
 
@@ -61,7 +62,6 @@ La soberanía tecnológica es la capacidad de las comunidades para mantener cont
 La soberanía florece en sistemas adaptables y culturalmente significativos. Cuando el Diseño es accesible, las comunidades pueden sostenerlo, modificarlo y personalizarlo. El Diseño se convierte en cultivo, no imposición, de la vida digital, del registro público y de la memoria colectiva. La soberanía garantiza la libertad de relacionarse con la tecnología sin volverse esclavo de ella.
 
 La soberanía tecnológica ayuda a contrarrestar dependencias extendidas, plataformas centralizadas, bloqueos de proveedores globales y cadenas de suministro opacas. Apuesta por infraestructuras adaptativas que respeten valores y capacidades locales. Las comunidades recuperan agencia digital, cultivando sistemas alineados con necesidades culturales. En esta recuperación, el Diseño se convierte en un acto de justicia y renovación.
-
 
 ## El Diseño Revela Sistemas con Transparencia
 
@@ -73,12 +73,9 @@ Este principio se alinea con nuevas ideas de transparencia en el Diseño que vin
 
 El código abierto es una expresión tangible de esa transparencia. Cuando el código fuente, la documentación de Diseño y los flujos de trabajo están disponibles públicamente, se crean condiciones para la supervisión y la replicación comunitaria. Cualquiera puede inspeccionar, contribuir o adaptar el trabajo—trasladando el poder de la autoridad singular hacia el cuidado colectivo.
 
+## El Diseño Educa y se Educa a Sí Mismo
 
-## El Diseño Cultiva la Custodia del Oficio
-
-El Diseño carece de la custodia que otras profesiones mantienen. Su apertura hacia la persona no-diseñadora es valiosa, pero también lo deja vulnerable a ser capturado por intereses ajenos al bienestar público. La custodia propone construir estructuras colectivas: espacios de crítica, reflexión ética y responsabilidad.
-
-Los diseñadores deben cuidar no solo de su práctica individual, sino de la disciplina misma. Un gremio de Diseño, fundamentado en responsabilidad, cuidado y criticidad, protege el horizonte ético de la disciplina. Garantiza que el Diseño siga siendo una práctica de responsabilidad con la Polis, con la cultura viva y con el futuro.
+Los artefactos del diseño proponen su propia forma para usarse, desplegarse y celebrarse. Con esto, el diseño renueva la cultura y se transmite en el tiempo a las siguientes generaciones. Cada decisión de diseño educa —explícita o implícitamente— sobre cómo convivir con los otros y con lo técnico. Y el Diseño también se educa a sí mismo. Aprende de sus caminos, se ensancha y corrije con la crítica, se refina con la práctica y se renueva en la interacción con quienes lo habitan. El Diseño es oficio que se mantiene vivo en la reciprocidad: al mismo tiempo que enseña, se deja enseñar, y así preserva su capacidad de participar plenamente en lo que siempre cambia.
 
 ### Corolario
 
