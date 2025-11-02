@@ -15,7 +15,7 @@ p5:
   script: /assets/p5/timeline.js
 ---
 
-![Herbert Spencer](/assets/uploads/2025/05/herbert.jpg)
+![Herbert Spencer](/assets/uploads/2025/05/hspencer.jpg)
 
 Soy Herbert Spencer González, diseñador gráfico formado en los albores de la era digital, testigo y partícipe de todas las transformaciones radicales de este soporte sobre el cual Ud. querido lector, lee. 
 
