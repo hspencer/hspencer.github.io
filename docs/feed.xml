@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-11-12T22:07:31+13:00</updated>
+  <updated>2025-11-12T22:19:43+13:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -14,6 +14,17 @@
     <link href="http://0.0.0.0:4000/2025/11/true-random"/>
     <updated>2025-11-13T10:34:30+13:00</updated>
     <id>http://0.0.0.0:4000/2025/11/true-random</id>
+    <content type="html">
+      
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Confirmation of Candidature</title>
+    <link href="http://0.0.0.0:4000/cc"/>
+    <updated>2025-11-04T02:00:00+13:00</updated>
+    <id>http://0.0.0.0:4000/cc</id>
     <content type="html">
       
 

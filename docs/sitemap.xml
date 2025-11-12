@@ -8,6 +8,13 @@
     </url>
   
     <url>
+      <loc>/cc</loc>
+      <lastmod></lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+    <url>
       <loc>/2025/manifiesto</loc>
       <lastmod></lastmod>
       <changefreq>monthly</changefreq>

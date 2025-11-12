@@ -17,6 +17,22 @@
   },
 
   {
+    "fecha": "2025-11-04T02:00:00+13:00",
+    "titulo": "Confirmation of Candidature",
+    "categorias": ["notas"],
+    "etiquetas": ["random"],
+    "imagen":  
+                  "assets/uploads/2025/11/cc.png"
+               ,
+    "url": "/cc",
+    "largo": 0,
+    "contenido":
+      
+        ""
+      
+  },
+
+  {
     "fecha": "2025-09-06T00:00:00+12:00",
     "titulo": "Manifiesto para el Diseño de Interacción en un Tiempo que se Despliega",
     "categorias": ["ideas"],
