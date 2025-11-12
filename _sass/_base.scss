@@ -91,11 +91,11 @@ header {
 /* quote button */
 a.btn-citar {
     position: absolute;
-    top: 2ex;
-    right: -1.2ex;
+    top: -2.33ex;
+    right: -5ex;
     display: inline-block;
     line-height: 0;
-    font-size: 3rem;
+    font-size: 2rem;
     cursor: pointer;
     border-radius: 5px;
     color: vars.$color-soft-line;

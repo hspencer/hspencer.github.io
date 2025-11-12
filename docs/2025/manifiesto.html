@@ -219,55 +219,6 @@
 
     <main id="dp-full">
      <article>
-        <a id="btn-citar-manifiesto" class="btn-citar">&#x301E;</a>
-  
-  <div id="modal-citar-manifiesto" class="modal-citar">
-    <div class="modal-contenido">
-      <span class="modal-cerrar">&times;</span>
-      <h3>Cómo citar este artículo:</h3>
-  
-      <h4>APA (7ª edición)</h4>
-      <p id="apa-cita">
-        Spencer, H. (2025, September 6). <em>Manifiesto para el Diseño de Interacción en un Tiempo que se Despliega</em>. 
-        En <em>{dp} · doble página</em>. https://herbertspencer.net/2025/manifiesto. Visitado en: <span class="fecha-acceso"></span>
-      </p>
-  
-      <h4>MLA</h4>
-      <p id="mla-cita">
-        Spencer, Herbert. "<em>Manifiesto para el Diseño de Interacción en un Tiempo que se Despliega</em>." <em>{dp} · doble página</em>, 6 September 2025, 
-        https://herbertspencer.net/2025/manifiesto. Accedido el <span class="fecha-acceso"></span>.
-      </p>
-  
-      <h4>Chicago</h4>
-      <p id="chicago-cita">
-        Spencer, Herbert. "<em>Manifiesto para el Diseño de Interacción en un Tiempo que se Despliega</em>." {dp} · doble página. Publicado el 6 de September de 2025. 
-        https://herbertspencer.net/2025/manifiesto. Consultado el <span class="fecha-acceso"></span>.
-      </p>
-    </div>
-  </div>
-  
-  <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.getElementById("btn-citar-manifiesto");
-    const modal = document.getElementById("modal-citar-manifiesto");
-    const cerrar = modal.querySelector(".modal-cerrar");
-  
-    btn.addEventListener("click", () => modal.style.display = "block");
-    cerrar.addEventListener("click", () => modal.style.display = "none");
-    window.addEventListener("click", e => {
-      if (e.target == modal) modal.style.display = "none";
-    });
-  
-    // Insertar fecha de acceso en formato: 26 de marzo de 2025
-    const fecha = new Date();
-    const meses = [
-      "enero", "febrero", "marzo", "abril", "mayo", "junio",
-      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
-    ];
-    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
-    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
-  });
-  </script>
         <h1 class="title">Manifiesto para el Diseño de Interacción en un Tiempo que se Despliega</h1>
         <div class="manifesto">
 
@@ -343,6 +294,8 @@
   <p>Este manifiesto está publicado en inglés aquí: <a title="Repositorio en Github con el Manifiesto" href="https://github.com/mediafranca/manifesto">https://github.com/mediafranca/manifesto</a></p>
 </div>
 
+         <!-- Bloque de sidebar en HTML directo -->
+        
         
      </article>
     </main>
@@ -358,7 +311,7 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 2 November 2025 - <a href="/feed.xml">Feed RSS</a>.
+     Última actualización: 12 November 2025 - <a href="/feed.xml">Feed RSS</a>.
    </p>
  </footer>
     <!-- Google tag (gtag.js) -->

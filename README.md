@@ -106,6 +106,11 @@ En remodelación
     python3 serve_site.py
     ```
 
+   o, mejor
+   ```bash
+   bundle exec jekyll serve --host 0.0.0.0 --livereload
+   ```
+   
 - Al ejecutarse, el script mostrará en la terminal un mensaje similar a:
 
   ```

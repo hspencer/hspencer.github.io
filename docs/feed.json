@@ -1,6 +1,22 @@
 [
 
   {
+    "fecha": "2025-11-13T10:34:30+13:00",
+    "titulo": "True Random",
+    "categorias": ["notas"],
+    "etiquetas": ["random"],
+    "imagen":  
+                  "assets/uploads/2025/11/galton.png"
+               ,
+    "url": "/2025/11/true-random",
+    "largo": 0,
+    "contenido":
+      
+        ""
+      
+  },
+
+  {
     "fecha": "2025-09-06T00:00:00+12:00",
     "titulo": "Manifiesto para el Diseño de Interacción en un Tiempo que se Despliega",
     "categorias": ["ideas"],
@@ -553,7 +569,7 @@
                   "/assets/uploads/2010/11/malla1.png"
                ,
     "url": "/2010/11/mesh-network/",
-    "largo": 561,
+    "largo": 543,
     "contenido":
       
         "This is an interactive demosntration depicting a mesh network at work. This is an example of how communication networks should work during crises."
@@ -985,10 +1001,10 @@
                   "/assets/pintura/11.jpg"
                ,
     "url": "/2008/07/manejando-la-complejidad/",
-    "largo": 2318,
+    "largo": 2328,
     "contenido":
       
-        "Entre Ciencia y Arte hay un puente que está hecho por el Diseño. Desde la poética de la creación a la retórica de la razón. Sin embargo, ese paso nunca se nos ha mostrado claramente ni se pueden dividir las aguas para proponer un Diseño “más artístico” o “más científico”. Por lo menos, no de un modo en que siga siendo buen Diseño. Desde un punto de vista bastante peculiar, el diseñador Tony Dunne profesor de Design Interactions at the RCA, aborda la pedagogía del Diseño desde una postura comprometida con la responsabilidad social. Pero no lo hace un el sentido convensional sino más bien instaura el diseño como la materialización de un tema para el debate. Se trata de intervenir en problemáticas o insterticios —normalmente asociados a tecnologías futuras— que resultan difíciles de plantear y discutir, debido a la complejidad de los mismos. Él “va río arriba” en términos especulativos y genera productos hipotéticos basados en tecnologías (biología sintética, manipulación genética o similares) para volver tangibles los problemas y generar el debate antes de que estos productos existan efectivamente, o —como él lo pone— que “pasen del laboratorio al mercado”; para saber si realmente queremos cosas así o no. Si las cosas son tangibles, entonces son debatibles; volviendo concreto lo fragmentado y extañamente efímero. Se trata de pensar un Diseño que palntee preguntas y no sólo respuestas, como estamos acostumbrados. Para más detalles de design for debate, basta mirar algunas notas de la conferencia del año pasado Innovationsforum Interaktionsdesign efectuada en Potsdam:  Anthony Dunne // Dunne &amp; Raby from Innovationsforum on Vimeo. La idea de que el Diseño puede jugar un rol crucial en el manejo de estas situaciones complejas es difícilmente novedoso pero podemos ver un gran potencial en la idea de diseñar “objetos controversiales” que sean absolutamente verosímiles, que aborden necesidades reales, que sean productivamente viables y que a la vez, sean capaces de generar un debate en temas cruciales y de interés ..."
+        "Entre Ciencia y Arte hay un puente que está hecho por el Diseño.Desde la poética de la creación a la retórica de la razón y vice-versa.Sin embargo, ese paso nunca se nos ha mostrado claramente ni se pueden dividir las aguas para proponer un Diseño “más artístico” o “más científico”. Por lo menos, no de un modo en que siga siendo buen Diseño.Desde un punto de vista bastante peculiar, el diseñador Tony Dunne profesor de Design Interactions at the RCA, aborda la pedagogía del Diseño desde una postura comprometida con la responsabilidad social. Pero no lo hace un el sentido convensional sino más bien instaura el diseño como la materialización de un tema para el debate. Se trata de intervenir en problemáticas o insterticios —normalmente asociados a tecnologías futuras— que resultan difíciles de plantear y discutir, debido a la complejidad de los mismos. Él “va río arriba” en términos especulativos y genera productos hipotéticos basados en tecnologías (biología sintética, manipulación genética o similares) para volver tangibles los problemas y generar el debate antes de que estos productos existan efectivamente, o —como él lo pone— que “pasen del laboratorio al mercado”; para saber si realmente queremos cosas así o no. Si las cosas son tangibles, entonces son debatibles; volviendo concreto lo fragmentado y extañamente efímero. Se trata de pensar un Diseño que palntee preguntas y no sólo respuestas, como estamos acostumbrados. Para más detalles de design for debate, basta mirar algunas notas de la conferencia del año pasado Innovationsforum Interaktionsdesign efectuada en Potsdam:  Anthony Dunne // Dunne &amp; Raby from Innovationsforum on Vimeo. La idea de que el Diseño puede jugar un rol crucial en el manejo de estas situaciones complejas es difícilmente novedoso pero podemos ver un gran potencial en la idea de diseñar “objetos controversiales” que sean absolutamente verosímiles, que aborden necesidades reales, que sean productivamente viables y que a la vez, sean capaces de generar un debate en temas cruciales y d..."
       
   },
 
