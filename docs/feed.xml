@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="https://herbertspencer.net/feed.xml"/>
-  <updated>2025-11-24T15:34:16+13:00</updated>
+  <updated>2025-11-24T15:53:34+13:00</updated>
   <id>https://herbertspencer.net/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -25,7 +25,7 @@
 
 &lt;p&gt;This is where the metaphor of the “centaur” becomes so powerful. In this new reality, AI doesn’t replace us; it extends our natural capabilities, allowing us to think and create at an incredible speed&lt;sup id=&quot;fnref:1&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. We are the human torso, providing the vision and direction, while the AI is the powerful equine body, executing complex tasks at a pace we could never achieve alone.&lt;/p&gt;
 
-&lt;p&gt;My current project, &lt;a href=&quot;https://github.com/hspencer/pictoforge&quot;&gt;PictoForge&lt;/a&gt;, is a testament to this partnership. It’s a complex application designed to act as a counterpart to a generative model for pictograms. A few years ago, building something like this would have been unthinkable for me. Today, with my AI partner, I am not only developing it but doing so in a way that makes it accessible to myself and other potential collaborators who, like me, are not professional coders. AI is the great equaliser, turning vision into reality without the traditional barriers.&lt;/p&gt;
+&lt;p&gt;My current project, &lt;a href=&quot;https://github.com/hspencer/pictoforge&quot;&gt;PictoForge&lt;/a&gt;, is a kind of human-side counterpart to a generative model that creates pictograms from the communicative intent of people who use text to express themselves (PictoNet), including those with complex communication needs. Where the model proposes pictograms, PictoForge allows me to manipulate, refine, and audit that output, checking pragmatically whether the image actually supports the intended act of communication, and documenting the whole process in a clear, structured way. A few years ago, building such a tool would have been unthinkable for me; today, with my AI partner, I am developing it mainly on my own, in the absence of human collaborators willing to enter this niche, as part of what is, after all, a doctoral project that everyone insists is a solitary journey. So, I could state that AI is the great equaliser, turning vision into reality without the traditional barriers.&lt;/p&gt;
 
 &lt;p&gt;This new ‘centaur’ approach, empowering as it is, produces a distinct kind of code. For all this enthusiasm, a critical question of nuance emerges regarding long-term software health. The creator of Linux, Linus Torvalds, perfectly captured this duality. Far from being a sceptic, he sees the immense value in this new wave of development, which he calls “vibe coding”.&lt;/p&gt;
 
