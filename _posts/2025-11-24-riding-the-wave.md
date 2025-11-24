@@ -3,7 +3,7 @@ layout: post
 type: posts
 title: Riding the Wave
 permalink: /2025/riding/the/wave
-description: "Las utopías evolucionan hacia sistemas autónomos donde la IA distribuye valor. Pero advierte: sin control humano, la eficiencia se vuelve totalitaria."
+description: "We are living through a fleeting centaur moment in which we must use human vision and shared democratic purpose to steer AI before more powerful systems reshape the terms of the partnership."
 date: 2025-11-24
 categories:
 - ideas
