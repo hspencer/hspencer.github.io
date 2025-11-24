@@ -1,6 +1,22 @@
 [
 
   {
+    "fecha": "2025-11-24T00:00:00+13:00",
+    "titulo": "Riding the Wave",
+    "categorias": ["ideas","notas"],
+    "etiquetas": ["AI","singularidad","utopía"],
+    "imagen":  
+                  "/assets/uploads/2025/11/centaur.png"
+               ,
+    "url": "/2025/riding/the/wave",
+    "largo": 8633,
+    "contenido":
+      
+        "Las utopías evolucionan hacia sistemas autónomos donde la IA distribuye valor. Pero advierte: sin control humano, la eficiencia se vuelve totalitaria."
+      
+  },
+
+  {
     "fecha": "2025-11-13T10:34:30+13:00",
     "titulo": "True Random",
     "categorias": ["notas"],
