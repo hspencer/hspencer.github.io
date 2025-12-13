@@ -3,6 +3,7 @@ layout: post
 type: posts
 permalink: /2010/02/la-continuidad-de-la-experiencia/
 title: La Continuidad de la Experiencia
+description: La idea de la paritura de interacción como forma adecuada para la notación de las experiencias digitales
 date: 2010-02-02 03:21:50 -0000
 last_modified_at: 2010-02-02 03:21:50 -0000
 publish: true
