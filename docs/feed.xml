@@ -1,102 +1,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2025-12-14T16:20:49+13:00</updated>
+  <updated>2025-12-13T23:35:06+13:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
   </author>
 
   <!-- Incluir Posts -->
-  
-  <entry>
-    <title>Climbing the Sacred Mountain of Doctoral Legitimacy</title>
-    <link href="http://0.0.0.0:4000/2025/climbing-the-sacred-mountain"/>
-    <updated>2025-12-14T00:00:00+13:00</updated>
-    <id>http://0.0.0.0:4000/2025/reflections-on-a-practice-led-doctorate</id>
-    <content type="html">
-      &lt;h4 id=&quot;from-valparaíso-to-tāmaki-makaurau&quot;&gt;From Valparaíso to Tāmaki Makaurau&lt;/h4&gt;
-
-&lt;p&gt;I am currently undertaking a practice-led doctorate (Format 3) at Auckland University of Technology (AUT), in Aotearoa New Zealand. From the perspective of my academic trajectory in Chile, this step is less a personal milestone than a structural necessity. In my school we have been consolidating postgraduate education and research, and doctoral-level participation matters: it shapes supervision capacity, research culture, and institutional responsibility. I am writing this as someone who intends to inhabit this system fully, and to contribute to it as a future supervisor.&lt;/p&gt;
-
-&lt;p&gt;This pathway also sits within a longer institutional relationship. A few years ago, our faculties began a collaboration building ties as schools of the so-called Global South. The point was not to imitate distant centres of authority, but to cultivate closer references, shared concerns, and an orientation towards making as a mode of inquiry. In architecture and design, knowledge often emerges in the encounter with a work-in-progress, with materials, constraints, people, and contexts. That encounter has an irreducible character: it produces outcomes that cannot be fully anticipated, because the work is shaped by contingencies and negotiations that exceed any single plan. This is part of what makes projective practice a knowledge practice rather than a decorative addition to “real” research.&lt;/p&gt;
-
-&lt;p&gt;The promise of practice-led research is straightforward: practice is not an illustration of theory, it is a primary site where knowledge is generated, tested, revised, and made communicable. The artefact (or system, or body of work) carries epistemic weight, while the exegesis clarifies how that work constitutes research within a university.&lt;/p&gt;
-
-&lt;p&gt;In my reading, this format responds to a long-standing problem in design education. Projective disciplines already operate with forms of rigour that do not resemble laboratory protocols. They organise inquiry through iteration, critique, rehearsal, prototyping, and situated judgement. The “method” is often a living arrangement rather than a fixed procedure. When a university recognises practice-led research, it is making room—at least in principle—for that arrangement to count as doctoral work.&lt;/p&gt;
-
-&lt;p&gt;And yet, the university still inherits expectations that come from other traditions. It expects a research question that can be stated cleanly; a rationale that can be summarised quickly; a method that can be described in a stable sequence; an output that can be audited under exam conditions. These expectations can coexist with practice-led inquiry, but the relationship is tense. The tension becomes visible when a project thinks in branching forms, or when its writing connects ideas in a relational, sometimes poetic mode.&lt;/p&gt;
-
-&lt;p&gt;In my first evaluated doctoral milestone, my project was perceived as too diffuse, too broad, and too ambitious. The critique was not primarily about my topic, but about viability and focus. I was told, in effect, that the project did not yet fit the shape of an examinable doctorate. I keep those materials public as a record of this negotiation&lt;sup id=&quot;fnref:1&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;One phrase has stayed with me: the writing and framing needed to be “easy to explain to a teenager”. I understand the motive. In an institutional environment where examiners must compare projects across disciplines, maximal communicability becomes a safety mechanism. It protects the system’s capacity to evaluate, and it protects the candidate from drifting into an unfinishable thesis.&lt;/p&gt;
-
-&lt;p&gt;But it also raises a difficult question: when communicability becomes the dominant criterion, what happens to kinds of thinking that operate through complexity, resonance, and layered connections? What happens to forms of writing that come from other rhetorical traditions, including Latin American ones, where thought is often carried by metaphor, by associative movement, and by a certain tolerance for ambiguity as a cognitive resource rather than a failure of discipline?&lt;/p&gt;
-
-&lt;h4 id=&quot;precision-as-a-gate-and-narrowness-as-a-metaphor&quot;&gt;Precision as a gate, and “narrowness” as a metaphor&lt;/h4&gt;
-
-&lt;p&gt;I have come to see that what is called “precision” in doctoral framing often functions as a rhetorical gate. It is a demand for early closure: a narrowing of the field until the inquiry fits a predetermined container. This can be useful. It forces commitments. It reduces risk. It creates a contract between candidate and examiner.&lt;/p&gt;
-
-&lt;p&gt;The problem is that “narrow and deep” is also a metaphor, and metaphors shape what institutions can recognise as valid knowledge. When narrowness is treated as the default sign of seriousness, it becomes a form of epistemic preference. It privileges linear thought, stable variables, and arguments that move in a single direction. It disadvantages thinking that works by mapping relations, holding tensions, and allowing the work to disclose its own questions through practice.&lt;/p&gt;
-
-&lt;p&gt;Design often proceeds by cultivating a field of relations before deciding where to cut. It is diagrammatic. It notices parallelisms. It moves sideways. In that sense, a practice-led doctorate faces a paradox: the university invites practice as inquiry, but still pressures the candidate to speak through a rhetoric that prunes the practice into a single trunk.&lt;/p&gt;
-
-&lt;p&gt;This is where the feeling of discrimination can become real. The issue is not only language proficiency or genre preference. It is whether the institution can treat plural intellectual styles as legitimate, rather than as deviations to be corrected.&lt;/p&gt;
-
-&lt;h5 id=&quot;inside-and-outside&quot;&gt;inside and outside&lt;/h5&gt;
-
-&lt;p&gt;I now describe my doctoral work as having two faces.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Inside the project&lt;/strong&gt; is where the knowledge is generated: coding, prototyping, failing, revising, negotiating meaning with participants, confronting the resistance of materials and constraints, and slowly building an artefact that can be used and criticised. This is where practice-led research does what it claims.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Outside the project&lt;/strong&gt; is how the project must pass through a narrow opening: a research question in one sentence; a diagram; a bounded method; a claim that can be repeated at speed. This outside version is not dishonest, but it is reductive by design. It compresses lived inquiry into a form that can be examined efficiently.&lt;/p&gt;
-
-&lt;p&gt;The risk is that the outside version becomes the “real” one, because it is what committees see, what forms accept, and what funding panels read. A doctoral structure can end up rewarding the performance of clarity over the work of inquiry.&lt;/p&gt;
-
-&lt;p&gt;Here I find a useful analogy: Asimov’s first law of robotics, which states that a robot must not harm a human being. I would adapt this as a supervisory principle: doctoral structure must not damage the project that gives the doctorate its reason to exist&lt;sup id=&quot;fnref:2&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:2&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;The candidate has to push the project through the narrow opening of academic rhetoric. The supervisor cannot do that in the candidate’s place. But the supervisor can do something else: protect the spirit of the work while helping the candidate translate it into examinable language. Supervision, in this view, is a translation practice. It does not demand submission to a single intellectual style (“bend the knee”); it helps the work find a form that the academy can read without forcing the work to become what it is not.&lt;/p&gt;
-
-&lt;p&gt;If I picture myself as a future supervisor, this is the role I want: to prevent worthwhile projects from collapsing under rhetorical compliance, and to treat alternative intellectual styles as part of the research ecology, not as errors.&lt;/p&gt;
-
-&lt;h3 id=&quot;i-am-not-alone&quot;&gt;I am not alone&lt;/h3&gt;
-
-&lt;p&gt;These tensions are not idiosyncratic. They have names in the history of ideas.&lt;/p&gt;
-
-&lt;p&gt;Paul Feyerabend argued against the idea of a single privileged method, insisting that rigid methodological rules often misdescribe how knowledge is actually produced, and that plurality is not a defect but a condition of discovery. His stance is often caricatured as “anything goes”, but the deeper point is epistemic freedom: institutions should not convert one model of rationality into a monopoly&lt;sup id=&quot;fnref:3&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:3&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;Donna Haraway criticised&lt;sup id=&quot;fnref:4&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:4&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; the fantasy of disembodied objectivity and proposed “situated knowledges”: claims become more accountable when their position, limits, and relations are stated, rather than hidden behind a universal voice. This supports forms of research writing that acknowledge location, responsibility, and partial perspective—features that practice-led work often carries naturally.&lt;/p&gt;
-
-&lt;p&gt;Boaventura de Sousa Santos describes “epistemicide” and argues for cognitive justice&lt;sup id=&quot;fnref:5&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:5&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;: the idea that there can be no social justice without plurality in what counts as knowledge. From this angle, the demand for a single doctoral rhetoric is not neutral; it can suppress other ways of knowing that carry different histories and needs.&lt;/p&gt;
-
-&lt;p&gt;Gloria Anzaldúa wrote from the borderlands—linguistic, cultural, and intellectual—and treated hybrid writing as a legitimate way of doing theory&lt;sup id=&quot;fnref:6&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:6&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;. Her work matters here because it shows that clarity does not require flattening voice, and that intellectual precision can coexist with metaphor, narrative, and bilingual thought.&lt;/p&gt;
-
-&lt;p&gt;Walter Mignolo speaks of epistemic disobedience&lt;sup id=&quot;fnref:7&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:7&quot; rel=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;: refusing to accept that the only valid thinking is the thinking authorised by Western academic canons. Whether one agrees with his entire programme or not, his work names a problem that many researchers experience when their intellectual style comes from elsewhere.&lt;/p&gt;
-
-&lt;p&gt;Arturo Escobar’s idea of the pluriverse—“a world where many worlds fit”—extends this logic to design&lt;sup id=&quot;fnref:8&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:8&quot; rel=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;. If design is a practice of world-making, then doctoral education in design should not operate as a one-world university, demanding that all inquiry conform to a single rhetorical architecture.&lt;/p&gt;
-
-&lt;p&gt;Catherine Walsh argues for interculturality as an epistemic project, not as a token gesture&lt;sup id=&quot;fnref:9&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:9&quot; rel=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;. In her terms, the academy’s task is to create conditions for dialogue between knowledges, rather than absorbing difference into a single evaluative grammar.&lt;/p&gt;
-
-&lt;p&gt;And closer to my immediate institutional context, Welby Ings writes about “invisible intelligence”&lt;sup id=&quot;fnref:10&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:10&quot; rel=&quot;footnote&quot;&gt;10&lt;/a&gt;&lt;/sup&gt;: forms of intelligence that institutions can perceive only after they have already failed the person who carried them. His reflections describe a sorrowful contradiction—recognition arriving too late because the system could not accommodate difference at the time it mattered. That contradiction is an educational warning, including for doctoral education.&lt;/p&gt;
-
-&lt;p&gt;Taken together, these voices do not remove the need for standards. They do something else: they remind us that standards are political and historical, and that a university that confuses one epistemic style with epistemic virtue risks becoming an instrument of exclusion.&lt;/p&gt;
-
-&lt;p&gt;There is a further pressure now: higher education is under visible strain—financially, institutionally, and epistemically. AI intensifies that strain. It challenges universities in at least three ways.&lt;/p&gt;
-
-&lt;p&gt;First, it destabilises what counts as individual production, and therefore what counts as assessment. Second, it raises the value of tacit judgement: the ability to evaluate, to interpret, to situate, and to take responsibility for a claim. Third, it makes rhetorical fluency easier to simulate. “Easy to explain to a teenager” will become an even less reliable proxy for intellectual quality when polished simplifications can be generated on demand.&lt;/p&gt;
-
-&lt;p&gt;If universities respond by tightening templates further—more standardisation, more audit, more rhetorical gatekeeping—they may protect administrative legibility at the expense of intellectual purpose. The risk is a university that becomes a factory of compliant outputs, while the actual work of thought migrates elsewhere.&lt;/p&gt;
-
-&lt;p&gt;A different response is possible. In the era of AI, universities can justify themselves by protecting what cannot be automated in any simple way: situated inquiry, responsible judgement, and forms of knowledge that arise through practice, collaboration, and lived encounter. Practice-led research belongs here. It treats making as inquiry, and inquiry as accountable relation.&lt;/p&gt;
-
-&lt;p&gt;My position is not anti-academic. It is an argument for plurality inside the academy, especially in doctoral education for design and the arts. A practice-led doctorate should not be a polite exception that still has to speak as if it were a conventional thesis. It should be a legitimate site of epistemic diversity: a place where different kinds of intelligence can be recognised while they are still alive, not only after the institution has already filtered them out.&lt;/p&gt;
-
-&lt;p&gt;I am learning to frame my work in a narrower, examinable way, because I want to finish the doctorate and to do so with integrity. But I am also learning something about supervision: the supervisor’s work is not to domesticate a project into monoculture. It is to help the academy find the project’s language, while guarding what the project already knows in practice.&lt;/p&gt;
-
-&lt;p&gt;That is the kind of doctoral culture I want to contribute to: disciplined, examinable, and plural. If the university is to remain a place where knowledge is produced rather than reproduced, it needs that plurality as a condition of survival.&lt;/p&gt;
-
-    </content>
-  </entry>
   
   <entry>
     <title>Riding the Wave</title>
@@ -2108,61 +2019,50 @@ El espacio del problema corresponde entonces al diálogo de indagación entre la
 
 &lt;p&gt;Sobre el proceso de la experiencia de las personas, MediaFranca propone una estructura de participación basada en flujos de interacción.&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;&lt;em&gt;Estados&lt;/em&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;strong&gt;Publicación&lt;/strong&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;strong&gt;Participación&lt;/strong&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;strong&gt;Deliberación&lt;/strong&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;strong&gt;Gestión&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;em&gt;modo de la experiencia&lt;/em&gt;&lt;/td&gt;
-      &lt;td&gt;documental testimonial individual&lt;/td&gt;
-      &lt;td&gt;conversacional constructiva co-experiencia&lt;/td&gt;
-      &lt;td&gt;reflexiva contemplativa&lt;/td&gt;
-      &lt;td&gt;inmersiva inclusiva colaborativa&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;em&gt;dinámica de interacción&lt;/em&gt;&lt;/td&gt;
-      &lt;td&gt;informar reportar denunciar&lt;/td&gt;
-      &lt;td&gt;consultar argumentar apoyar/rechazar&lt;/td&gt;
-      &lt;td&gt;votar adscribir&lt;/td&gt;
-      &lt;td&gt;comprometer trabajar reclutar&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;em&gt;objetivos&lt;/em&gt;&lt;/td&gt;
-      &lt;td&gt;construir una imagen equilibrada y exhaustiva de la realidad a partir del reporte y el punto de vista&lt;/td&gt;
-      &lt;td&gt;modelar el sentido colectivo de relevancia estableciendo una agenda prioritaria&lt;/td&gt;
-      &lt;td&gt;construir acuerdos abierto y pluralistas&lt;/td&gt;
-      &lt;td&gt;depositar la responsabilidad final en la comunidad involudrada&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;__&lt;/td&gt;
-      &lt;td&gt;construcción de registro público&lt;/td&gt;
-      &lt;td&gt;co-creación&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;em&gt;herramientas&lt;/em&gt;&lt;/td&gt;
-      &lt;td&gt;perfil de identidad publicación multiformato&lt;/td&gt;
-      &lt;td&gt;visualización adscripción suscripción conversación&lt;/td&gt;
-      &lt;td&gt;valoración evaluación apoyo/rechazo&lt;/td&gt;
-      &lt;td&gt;coordinación colaboración administración incentivo&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;em&gt;servicios existentes&lt;/em&gt;&lt;/td&gt;
-      &lt;td&gt;blogging microblogging comunidades de opinión&lt;/td&gt;
-      &lt;td&gt;redes sociales wikis&lt;/td&gt;
-      &lt;td&gt;herramientas de votación y relevancia (+1)&lt;/td&gt;
-      &lt;td&gt;servicios de gestión de proyectos Google docs wikis&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;table style=&quot;font-size:60%&quot;&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Estados&lt;/th&gt;
+          &lt;th&gt;Publicación&lt;/th&gt;
+          &lt;th&gt;Participación&lt;/th&gt;
+          &lt;th&gt;Deliberación&lt;/th&gt;
+          &lt;th&gt;Gestión&lt;/th&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;th&gt;modo de la experiencia&lt;/th&gt;
+          &lt;td&gt;documental testimonial individual&lt;/td&gt;
+          &lt;td&gt;conversacional constructiva co-experiencia&lt;/td&gt;
+          &lt;td&gt;reflexiva contemplativa trascendente&lt;/td&gt;
+          &lt;td&gt;inmersiva inclusiva colaborativa&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;th&gt;dinámica de interacción&lt;/th&gt;
+          &lt;td&gt;narrar reportar documentar denunciar&lt;/td&gt;
+          &lt;td&gt;consultar aportar preferir (apoyar/rechazar)&lt;/td&gt;
+          &lt;td&gt;argumentar adscribir decidir votar&lt;/td&gt;
+          &lt;td&gt;comprometer trabajar reclutar&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;th&gt;objetivos&lt;/th&gt;
+          &lt;td&gt;insidir en el registro de forma individual (registro público)&lt;/td&gt;
+          &lt;td&gt;insidir en el registro público de forma colectiva&lt;/td&gt;
+          &lt;td&gt;insidir en el registro público de forma colectiva sopesando lo individual e integrándolo en un proyecto común trascendente&lt;/td&gt;
+          &lt;td&gt;insidir en la labor continua del proyecto común&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;th&gt;herramientas&lt;/th&gt;
+          &lt;td&gt;expresión&lt;/td&gt;
+          &lt;td&gt;valoración&lt;/td&gt;
+          &lt;td&gt;exportación&lt;/td&gt;
+          &lt;td&gt;trackeo&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;th&gt;servicios existentes (2011)&lt;/th&gt;
+          &lt;td&gt;blogging, microblogging, comunidades de opinión&lt;/td&gt;
+          &lt;td&gt;redes sociales, wikis&lt;/td&gt;
+          &lt;td&gt;herramientas de votación y relevancia (+1)&lt;/td&gt;
+          &lt;td&gt;servicios de gestión de proyectos (trello, slack, drive)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/table&gt;
 
 &lt;p&gt;Nuestro modelo distingue 4 estados dentro de la macro (co)experiencia democrática. Cada uno de estos estados puede abordarse desde el Diseño como experiencias finitas, cada una de ellas con una forma de culminación propia. El modelo contempla desde el levantamiento de temas hasta la gestión de una iniciativa a través de herramientas ad-hoc. Esta estructura perfila los procesos mencionados como estados de participación abiertos, no obligatorios, según la tipología de personas y sus intereses locales, clasificando cada &lt;em&gt;acción ciudadana&lt;/em&gt; en las instancias de:&lt;/p&gt;
 
@@ -2173,7 +2073,7 @@ El espacio del problema corresponde entonces al diálogo de indagación entre la
   &lt;li&gt;&lt;strong&gt;Gestión&lt;/strong&gt; : Participación directa.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;a href=&quot;/assets/uploads/2011/11/image0071.png&quot;&gt;&lt;img src=&quot;/assets/uploads/2011/11/image0071.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/uploads/2011/11/image0071.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;En primera instancia, diseñar un espacio democrático requiere permitir su maleabilidad estructural. Diseñar para una maleabilidad estructural significa permitir un proceso de co-evolución con los participantes. Si la maleabilidad se refiere a la capacidad de alterar los artefactos del ecosistema, la maleabilidad estructural se refiere a la capacidad de modificar el espacios donde se da la interacción, modificar las condiciones ambientales. Aquí, sin la intervención del diseñador, las acciones que emergen dentro de ciertos contextos pueden modificar las condiciones del sistema en el que se insertan. La gente ya no es más consumidora dentro de espacios o sistemas predefinidos sino que se vuelven co-creadores de espacios &lt;em&gt;convivenciales&lt;/em&gt;. El enfoque anticipatorio del diseño como proyección (que prevé) o como planificación, se mueve hacia otra estrategia de producción y de compromiso con su comunidad de uso (el público) mediante el reconocimiento de sus limitaciones y dejando la puerta abierta a constantes modificaciones, asumiendo un modo conversacional o de &lt;em&gt;control blando&lt;/em&gt; , refiriéndose al cambio programado dentro de un sistema complejo. Normalmente las acciones ejercidas deben esperar un tiempo para ver los efectos de la acción. Esto se debe principalmente a que la naturaleza de la interacción social no se refiere únicamente a los actos comunicativos o transaccionales a nivel individual sino también a la modulación dinámica de energías materiales y sociales. Otro aspecto clave de una red que empodera la acción social es permitir la reversibilidad de sus relaciones. Cuando se trata de tecnología, la reversibilidad no es otra cosa que la moral puesta en práctica. Diseñar para el diálogo puede ser entendido como apoyar los procesos co-evolutivos mediante relaciones dialécticas. A la gente se le permite hablar de vuelta, comentar, elaborar sobre lo ya constituido; pero de un modo transparente y siempre reversible, que evita a toda costa la imposición de construcciones, procesos o ideas. Esta forma –ideal, por cierto– busca permitir la emergencia te ideas y tópicos democráticamente relevantes y tiene lugar a escala humana, en comunidades y grupos pequeños donde los valores esenciales son los significados comunes, el pensamiento colectivo y, por lo tanto, la propiedad y el bien común. Al involucrarnos en interacciones sociales, buscamos un sentido de propósito y de trascendencia a nuestros actos; necesitamos ver la consecuencia de nuestras acciones si aspiramos a que otros elaboren y construyan sobre ellas. La trascendencia, en este sentido, apunta a nuestra habilidad para generar aportes significativos en nuestras comunidades; aporte con un valor intrínseco suficiente como para que sean recibidos y reconocidos positivamente. Una herramienta que permita acciones trascendentes de sus participantes les permitirá transformar su contexto en oposición a la construcción de contextos que imponen acciones y condicionan y limitan a las personas. El modelo de MediaFranca hace un especial hincapié en la etapa deliberativa y en normar los procesos vinculantes. apuntando a la motivación a través de la construcción del perfil ciudadano, grado de participación-influencia, y la realización, mediante la recomendación inteligente de oportunidades y soluciones legales según las características de las conversaciones. Construir un modelo deliberativo en base a la votación, no asume la diversidad de intereses ciudadanos en cada uno de estos estados, más bien, excluye a quienes no deseen participar del resto de las instancias. Una persona podrá sentirse atraída levantando temas locales, conectando conversaciones, pero no gestionando la realización de un proyecto. Si apuntamos a una autorregulación de los mecanismos vinculantes tenderemos, sin duda, a una suerte de meritocracia (Bishay, 2010), donde las personas tendrán necesariamente mayor injerencia sobre aquellos asuntos sobre los cuales han invertido tiempo y trabajo. Sobre la motivación y el incremento en la sinergia de las conversaciones, hacer público un perfil ciudadano de acuerdo al nivel de participación, genera una reputación e influencia que desincentiva la publicación de información banal. Cada persona con su identidad ciudadana, del mismo modo que lo hace con su perfil en las redes sociales ya que forma parte del mismo ecosistema. Distinguir la participación a través del reconocimiento de personas, aumenta la relación horizontal y la importancia del empoderamiento cívico a través de la representatividad. Un espacio de interacción social reglado define, en virtud de su estructura mecánica de protocolos y procedimientos, un determinismo estructural. Ya hemos discutido que lo que emerja como comportamiento masivo es complejo de prever y por eso se hace necesario irlo construyendo permanentemente de forma dialógica. El sistema propuesto busca hacer “rimar” la palabra y la acción. En términos políticos esto significa desincentivar el clientelismo y promover el empoderamiento orientado en acción y proyecto. Son los proyectos los que construirán un “anillo público” a su alrededor, un pequeño “nosotros” que se articula en pos de una visión compartida del futuro, por muy pequeño y humilde que sea el alcance del proyecto entre manos. Si bien los servicios digitales son altamente sofisticados en los algoritmos que los gobiernan, la mecánica democracia no debe serlo. Muy por el contrario, debe ser transparente y comprensible; no como una caja negra sino como un cubo blanco. Una elección democrática de define con una claridad aritmética, sus mecanismos son comprensibles y fácilmente verificables. En este sentido, la complejidad que abre la tecnología es –paradójicamente– la simpleza que se requiere para no obscurecer ni delegar en cajas negras la co-creación de un futuro común.&lt;/p&gt;
 
@@ -2618,7 +2518,7 @@ A perfect and absolute blank!”&lt;/p&gt;
     <content type="html">
       &lt;h2 id=&quot;ser-y-tiempo&quot;&gt;Ser y Tiempo&lt;/h2&gt;
 
-&lt;p&gt;Quisiera hablar del &lt;em&gt;diseño para la experiencia&lt;/em&gt; &lt;sup id=&quot;fnref:1&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; en general, desde la pregunta &lt;em&gt;qué es aquello que debemos que diseñar&lt;/em&gt; para cuidar la experiencia dentro de un sistema o servicio. Ante cualquier proyecto, sabemos que debemos diseñar la &lt;strong&gt;forma&lt;/strong&gt; , tanto estructural como visual y sabemos que debemos diseñar su &lt;strong&gt;tiempo&lt;/strong&gt; , tanto la información como comportamiento; esto, para todo sistema o servicio. Es decir, debemos&lt;strong&gt;diseñar su ser y su tiempo&lt;/strong&gt; , si me permiten esas dos categorías fundamentales que tomo prestadas de Heidegger. Creo que es buena esa división porque definitivamente no dejamos nada afuera y nos permite entender el proceso de diseño desde esta dualidad. En general, y no sé por qué motivo, en casi todas las instancias de un proyecto, las herramientas y los lenguajes que tenemos a disposición dentro del proceso se centran en definir el &lt;em&gt;ser&lt;/em&gt; y muy pocas herramientas y lenguajes nos ayudan a definir el &lt;em&gt;tiempo&lt;/em&gt;. Me explico: hacemos diagramas de afinidad &lt;sup id=&quot;fnref:2&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:2&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; para generar los mapas de navegación, establecemos jerarquías y estructuras, hacemos esquemas y configuraciones de pantalla, etc. pero muy pocas veces nos centramos en los comportamientos y flujos individuales. Este punto es crítico ya que, si nos centramos en la experiencia como fin, es fundamental tener un lenguaje que nos permita diseñar la cadencia de los elementos para la construcción de su demora. No tenemos cabeza de partitura o de flujo; tenemos cabeza de grafos, de nodos y conectivas, cajas y flechas; que sólo nos permiten comprender el tiempo como momentos discretos.&lt;/p&gt;
+&lt;p&gt;Quisiera hablar del &lt;em&gt;diseño para la experiencia&lt;/em&gt; &lt;sup id=&quot;fnref:1&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; en general, desde la pregunta &lt;em&gt;qué es aquello que debemos que diseñar&lt;/em&gt; para cuidar la experiencia dentro de un sistema o servicio. Ante cualquier proyecto, sabemos que debemos diseñar la &lt;strong&gt;forma&lt;/strong&gt; , tanto estructural como visual y sabemos que debemos diseñar su &lt;strong&gt;tiempo&lt;/strong&gt; , tanto la información como comportamiento; esto, para todo sistema o servicio. Es decir, debemos &lt;strong&gt;diseñar su ser y su tiempo&lt;/strong&gt; , si me permiten esas dos categorías fundamentales que tomo prestadas de Heidegger. Creo que es buena esa división porque definitivamente no dejamos nada afuera y nos permite entender el proceso de diseño desde esta dualidad. En general, y no sé por qué motivo, en casi todas las instancias de un proyecto, las herramientas y los lenguajes que tenemos a disposición dentro del proceso se centran en definir el &lt;em&gt;ser&lt;/em&gt; y muy pocas herramientas y lenguajes nos ayudan a definir el &lt;em&gt;tiempo&lt;/em&gt;. Me explico: hacemos diagramas de afinidad &lt;sup id=&quot;fnref:2&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:2&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; para generar los mapas de navegación, establecemos jerarquías y estructuras, hacemos esquemas y configuraciones de pantalla, etc. pero muy pocas veces nos centramos en los comportamientos y flujos individuales. Este punto es crítico ya que, si nos centramos en la experiencia como fin, es fundamental tener un lenguaje que nos permita diseñar la cadencia de los elementos para la construcción de su demora. No tenemos cabeza de partitura o de flujo; tenemos cabeza de grafos, de nodos y conectivas, cajas y flechas; que sólo nos permiten comprender el tiempo como momentos discretos.&lt;/p&gt;
 
 &lt;h2 id=&quot;los-grafos&quot;&gt;Los Grafos&lt;/h2&gt;
 
@@ -2628,7 +2528,7 @@ A perfect and absolute blank!”&lt;/p&gt;
 
 &lt;p class=&quot;caption&quot;&gt;Un grafo que es, a la vez, un marco de bicicleta. Los vínculos del marco son los nodos de la red.&lt;/p&gt;
 
-&lt;p&gt;Por ejemplo, el grafo de la figura podría representar la estructura de un hipertexto cualquiera, con nodos y vínculos. Una vez trabajaba en un grafo similar y lo vio un amigo, algo mayor, y me preguntó por qué estaba yo diseñando una bicicleta. Él vió en el grafo una bicileta. Lo que yo llamaba nodos, él llamaba vínculos y vice-versa. Era el choque de dos visiones culturales distintas: para él la sustancia son los fierros y las uniones son las soldaduras; yo, por mi parte, con mi cabeza de hipertexto veía la sustancia en los nodos y las líneas como saltos inmateriales. Si uno mira el marco de bicicleta es porque entiende que los protagonistas son los tubos y las uniones son la forma de construir una estructura ad-hoc. Para avanzar en una cabeza centrada en la experiencia que cuida la forma en que las personas que usan, activan, recorren nuestros servicios y sistemas, debemos comenzar por mirar la bicicleta, entender los tipos de tubos, sus largos, sus materiales, etc. Hoy en día esta realidad es cada vez más concreta, ya que los modelos tradicionales basados en “la filosofía nodo” no sirven para proyectos complejos de alta interacción. Es decir, los mapas de navegación son una guía preliminar, pero que no sirve para comenzar a documentar y planear el diseño de experiencia: no hay espacio para “los tubos”, que son demasiados.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, el grafo de la figura podría representar la estructura de un hipertexto cualquiera, con nodos y vínculos. Una vez trabajaba en un grafo similar y lo vio Miguel&lt;sup id=&quot;fnref:3&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:3&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;, quien algo mayor, y me preguntó por qué estaba yo diseñando una bicicleta. Él vió en el grafo una bicileta. Lo que yo llamaba nodos, él llamaba vínculos y vice-versa. Era el choque de dos visiones mentales absolutamente opuestas: para él la sustancia son los fierros y las uniones son las soldaduras; yo, por mi parte, con mi cabeza de hipertexto veía la sustancia en los nodos singuales y las líneas como saltos inmateriales. Si uno mira el marco de bicicleta es porque entiende que los protagonistas son los tubos y las uniones son la forma de construir una estructura ad-hoc. Para avanzar en una cabeza centrada en la experiencia que cuida la forma en que las personas que usan, activan, recorren nuestros servicios y sistemas, debemos comenzar por mirar la bicicleta, entender los tipos de tubos, sus largos, sus materiales, etc. Hoy en día esta realidad es cada vez más concreta, ya que los modelos tradicionales basados en “la filosofía nodo” no sirven para proyectos complejos de alta interacción. Es decir, los mapas de navegación son una guía preliminar, pero que no sirve para comenzar a documentar y planear el diseño de experiencia: no hay espacio para “los tubos”, que son demasiados.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -2808,7 +2708,7 @@ A perfect and absolute blank!”&lt;/p&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;A cada &lt;em&gt;n&lt;/em&gt; cantidad de nodos, los máximos vínculos posibles serán &lt;em&gt;(n *(n-1))/2,&lt;/em&gt; que corresponde a la tercera fila del triángulo de Pascal. Ésto si los consideramos sólo como conexiones reversibles, pero ocurre en realidad que son el doble: &lt;em&gt;n* (n-1)&lt;/em&gt; ya que &lt;em&gt;ir y venir no da lo mismo&lt;/em&gt; si seguimos pensando en diseñar experiencias. Éso es comenzar a mirar la bicicleta.&lt;/p&gt;
+&lt;p&gt;A cada &lt;em&gt;n&lt;/em&gt; cantidad de nodos, los máximos vínculos posibles serán &lt;em&gt;(n *(n-1))/2,&lt;/em&gt; que corresponde a la tercera fila del triángulo de Pascal. Ésto si los consideramos sólo como conexiones reversibles, pero ocurre en realidad que son el doble: &lt;em&gt;n* (n-1)&lt;/em&gt; ya que &lt;em&gt;ir y venir no da lo mismo&lt;/em&gt; si seguimos pensando en diseñar experiencias. Éso es comenzar a mirar la hiperbicicleta.&lt;/p&gt;
 
 &lt;h2 id=&quot;y-el-tiempo&quot;&gt;¿Y el Tiempo?&lt;/h2&gt;
 
