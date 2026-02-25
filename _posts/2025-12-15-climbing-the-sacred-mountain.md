@@ -32,7 +32,7 @@ This doctorate sits within a longer institutional relationship. Some years ago, 
 
 Both New Zealand and Chile operate, culturally and academically, with what I would describe as an *island mindset*. Despite strong local traditions of practice and thought, there is a persistent tendency to seek external validation, from standards, frameworks, and evaluative models perceived as more authoritative because they originate in larger or more central academic systems. This tendency produces a familiar paradox: even when we are critical of imported frameworks, we can end up defending them with greater rigidity than their original proponents. The borrowed model becomes something to protect rather than something to work with.
 
-#### The promise, the innocence
+#### Practice-oriented expectations
 
 The promise of practice-led research is clear: practice is not an illustration of theory; it is a primary site where knowledge is generated, tested, revised, and made communicable. The artefact carries epistemic weight, while the exegesis clarifies how that work constitutes research within a university context.
 
@@ -44,7 +44,7 @@ This format responds to a long-standing issue in design education. Projective di
 
 Yet the university also inherits expectations from other research traditions. It expects a research question that can be stated cleanly; a rationale that can be summarised quickly; a method that can be described as a stable sequence; an output that can be audited under examination conditions. These expectations can coexist with practice-led inquiry, and I have come to appreciate the discipline they impose. The tension between them is not a defect; it is the productive friction through which the work becomes examinable without ceasing to be genuine.
 
-#### The wound and its gift
+#### Pressure and Diamonds
 
 In my first evaluated doctoral milestone, my project was perceived as too diffuse, too broad, and too ambitious. The critique focused less on the topic itself than on questions of viability and focus. I was told, in effect, that the project did not yet fit the shape of an examinable doctorate. I have kept those materials public as a record of this negotiation((PGR9 materials (archived): [https://github.com/hspencer/cc](https://github.com/hspencer/cc) and the initial project text: [https://github.com/hspencer/cc/blob/main/mediafranca.md](https://github.com/hspencer/cc/blob/main/mediafranca.md))).
 
@@ -54,7 +54,7 @@ That gap between inner conviction and outer legibility is, I think, a universal 
 
 The feedback forced me to distinguish between the project as I experienced it, branching, relational, full of connections I wanted to preserve, and the project as it needed to be communicated: bounded, verifiable, examinable. The question was never whether to accept that constraint, but how to accept it without losing the spirit of the inquiry.
 
-#### Precision and communicability
+#### Precision and Communicability
 
 One piece of advice I received early on was that the project should be easy to explain, quickly, to someone outside the field. I understand the motive. In an institutional environment where examiners compare projects across disciplines, communicability serves as a safeguard. It protects the system's capacity to evaluate, and it protects the candidate from drifting into an unfinishable thesis.
 
@@ -74,7 +74,7 @@ We live, of course, in a world where word and action have long since parted ways
 
 A doctoral format cannot repair that fracture. But it can refuse to reproduce it. If the candidate's text says "I did this" and the artefact shows otherwise, the examination catches it. If the method section claims one thing and the practice reveals another, the format makes that visible. This is not bureaucracy; it is a commitment to verifiability at a moment when verifiability is scarce. The discipline of the format is not the enemy of creative inquiry. It is its proof of good faith.
 
-#### Inside and outside
+#### Inside and Outside
 
 I now think of my doctoral work as having two faces.
 
@@ -98,7 +98,7 @@ Taken together, these voices do not eliminate the need for standards. They remin
 
 #### What AI changes
 
-Higher education now faces additional pressure. AI makes rhetorical fluency easier to simulate, weakening simple proxies for intellectual quality. In this context, clarity remains valuable, but it is no longer sufficient.
+Higher education now faces additional pressure. AI makes rhetorical fluency easier to acheive, weakening simple proxies for intellectual quality. In this context, clarity remains valuable, but it is no longer sufficient.
 
 What matters more is judgement: knowing where a project is trying to go, why that direction is justified, and how responsibility is maintained as the work moves through situated constraints. Much of this intelligence resides beyond text, in decisions about form, sequencing, exclusion, and timing, decisions shaped by practice and exposure to consequences.
 

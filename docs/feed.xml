@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://0.0.0.0:4000/feed.xml"/>
-  <updated>2026-02-26T00:09:30+13:00</updated>
+  <updated>2026-02-26T09:29:42+13:00</updated>
   <id>http://0.0.0.0:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -17,7 +17,7 @@
     <content type="html">
       &lt;p&gt;Between a phrase and a pictogram there is a gap. Not just a technical gap, the kind engineers like to close, but a space full of decisions that somebody has to make: what to show, what to leave out, how abstract to be, how to arrange elements so the image means what it needs to mean for a particular person in a particular situation. Professionals who work in augmentative and alternative communication navigate this gap every day, largely by instinct. They have experience but not explicit maps. They make good choices but cannot always say why, or point to where exactly the choice was made.&lt;/p&gt;
 
-&lt;p&gt;My doctoral research at AUT asks a simple question about that gap: which of those decisions can be surfaced, made visible, and put under someone’s hand?&lt;/p&gt;
+&lt;p&gt;My doctoral research at AUT asks a simple question about that gap: which of those decisions can be surfaced, made visible, and put under someone’s hand? This is not a theoretical exercise. There is a working proof of concept: &lt;a href=&quot;https://pictos.net&quot;&gt;pictos.net&lt;/a&gt;, where anyone can type a phrase and receive a structured pictogram, generated in real time. The SVG that illustrates this post was made there. Everything that follows, the research question, the design decisions, the notion of handles, grows out of what that prototype has already made visible and what it has yet to resolve.&lt;/p&gt;
 
 &lt;h4 id=&quot;what-i-mean-by-handles&quot;&gt;What I mean by handles&lt;/h4&gt;
 
@@ -85,7 +85,7 @@
 
 &lt;p&gt;The contribution will not be a finished product. It will be a documented account of what happens when you treat generative AI as a material to be shaped rather than a service to be consumed. The aim, throughout, is to keep the professional as the author of every pictogram that enters someone’s communication system.&lt;/p&gt;
 
-&lt;p&gt;The code is on &lt;a href=&quot;https://github.com/hspencer/pictonet&quot;&gt;GitHub&lt;/a&gt;. The work continues.&lt;/p&gt;
+&lt;p&gt;The code is on &lt;a href=&quot;https://github.com/hspencer/pictos-net&quot;&gt;GitHub&lt;/a&gt;. The work continues.&lt;/p&gt;
 
     </content>
   </entry>
@@ -106,7 +106,7 @@
 
 &lt;p&gt;Both New Zealand and Chile operate, culturally and academically, with what I would describe as an &lt;em&gt;island mindset&lt;/em&gt;. Despite strong local traditions of practice and thought, there is a persistent tendency to seek external validation, from standards, frameworks, and evaluative models perceived as more authoritative because they originate in larger or more central academic systems. This tendency produces a familiar paradox: even when we are critical of imported frameworks, we can end up defending them with greater rigidity than their original proponents. The borrowed model becomes something to protect rather than something to work with.&lt;/p&gt;
 
-&lt;h4 id=&quot;the-promise-the-innocence&quot;&gt;The promise, the innocence&lt;/h4&gt;
+&lt;h4 id=&quot;practice-oriented-expectations&quot;&gt;Practice-oriented expectations&lt;/h4&gt;
 
 &lt;p&gt;The promise of practice-led research is clear: practice is not an illustration of theory; it is a primary site where knowledge is generated, tested, revised, and made communicable. The artefact carries epistemic weight, while the exegesis clarifies how that work constitutes research within a university context.&lt;/p&gt;
 
@@ -118,7 +118,7 @@
 
 &lt;p&gt;Yet the university also inherits expectations from other research traditions. It expects a research question that can be stated cleanly; a rationale that can be summarised quickly; a method that can be described as a stable sequence; an output that can be audited under examination conditions. These expectations can coexist with practice-led inquiry, and I have come to appreciate the discipline they impose. The tension between them is not a defect; it is the productive friction through which the work becomes examinable without ceasing to be genuine.&lt;/p&gt;
 
-&lt;h4 id=&quot;the-wound-and-its-gift&quot;&gt;The wound and its gift&lt;/h4&gt;
+&lt;h4 id=&quot;pressure-and-diamonds&quot;&gt;Pressure and Diamonds&lt;/h4&gt;
 
 &lt;p&gt;In my first evaluated doctoral milestone, my project was perceived as too diffuse, too broad, and too ambitious. The critique focused less on the topic itself than on questions of viability and focus. I was told, in effect, that the project did not yet fit the shape of an examinable doctorate. I have kept those materials public as a record of this negotiation&lt;sup id=&quot;fnref:2&quot; class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn:2&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
@@ -128,7 +128,7 @@
 
 &lt;p&gt;The feedback forced me to distinguish between the project as I experienced it, branching, relational, full of connections I wanted to preserve, and the project as it needed to be communicated: bounded, verifiable, examinable. The question was never whether to accept that constraint, but how to accept it without losing the spirit of the inquiry.&lt;/p&gt;
 
-&lt;h4 id=&quot;precision-and-communicability&quot;&gt;Precision and communicability&lt;/h4&gt;
+&lt;h4 id=&quot;precision-and-communicability&quot;&gt;Precision and Communicability&lt;/h4&gt;
 
 &lt;p&gt;One piece of advice I received early on was that the project should be easy to explain, quickly, to someone outside the field. I understand the motive. In an institutional environment where examiners compare projects across disciplines, communicability serves as a safeguard. It protects the system’s capacity to evaluate, and it protects the candidate from drifting into an unfinishable thesis.&lt;/p&gt;
 
@@ -148,7 +148,7 @@
 
 &lt;p&gt;A doctoral format cannot repair that fracture. But it can refuse to reproduce it. If the candidate’s text says “I did this” and the artefact shows otherwise, the examination catches it. If the method section claims one thing and the practice reveals another, the format makes that visible. This is not bureaucracy; it is a commitment to verifiability at a moment when verifiability is scarce. The discipline of the format is not the enemy of creative inquiry. It is its proof of good faith.&lt;/p&gt;
 
-&lt;h4 id=&quot;inside-and-outside&quot;&gt;Inside and outside&lt;/h4&gt;
+&lt;h4 id=&quot;inside-and-outside&quot;&gt;Inside and Outside&lt;/h4&gt;
 
 &lt;p&gt;I now think of my doctoral work as having two faces.&lt;/p&gt;
 
@@ -172,7 +172,7 @@
 
 &lt;h4 id=&quot;what-ai-changes&quot;&gt;What AI changes&lt;/h4&gt;
 
-&lt;p&gt;Higher education now faces additional pressure. AI makes rhetorical fluency easier to simulate, weakening simple proxies for intellectual quality. In this context, clarity remains valuable, but it is no longer sufficient.&lt;/p&gt;
+&lt;p&gt;Higher education now faces additional pressure. AI makes rhetorical fluency easier to acheive, weakening simple proxies for intellectual quality. In this context, clarity remains valuable, but it is no longer sufficient.&lt;/p&gt;
 
 &lt;p&gt;What matters more is judgement: knowing where a project is trying to go, why that direction is justified, and how responsibility is maintained as the work moves through situated constraints. Much of this intelligence resides beyond text, in decisions about form, sequencing, exclusion, and timing, decisions shaped by practice and exposure to consequences.&lt;/p&gt;
 
