@@ -8,7 +8,7 @@ date: 2025-11-24
 categories:
 - ideas
 - notas
-tags: [AI, singularidad, utopía]
+tags: [AI, singularidad, utopía, pictonet, doctoral-studies, pictos]
 image:
   path: /assets/uploads/2025/11/centaur.png
   alt: "Centaur riding Hokusai's wave, Made by Nano Banana"
