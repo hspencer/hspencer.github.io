@@ -7,7 +7,8 @@ description: "On practice-led doctoral research, the productive tension between 
 date: 2025-12-14
 categories:
 - ideas
-- academia
+- research
+- escuela
 published: true
 tags:
 - doctoral-studies
