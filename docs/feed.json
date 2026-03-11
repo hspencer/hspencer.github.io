@@ -1,6 +1,22 @@
 [
 
   {
+    "fecha": "2026-03-12T00:00:00+13:00",
+    "titulo": "Filippo 3D v2.1",
+    "categorias": ["code"],
+    "etiquetas": ["3d","herramienta","dibujo","drawing","teaching","open-source"],
+    "imagen":  
+                  "/assets/uploads/2026/03/filippo3d-chair.png"
+               ,
+    "url": "/2026/filippo-3d",
+    "largo": 3197,
+    "contenido":
+      
+        "Dibujo a mano alzada en 3D, directo en el navegador. La nueva versión fusiona Filippo 3D con Pizarra en una sola herramienta web nativa."
+      
+  },
+
+  {
     "fecha": "2026-02-25T00:00:00+13:00",
     "titulo": "The Right Handles",
     "categorias": ["research","ideas"],
