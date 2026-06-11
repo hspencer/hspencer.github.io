@@ -41,13 +41,13 @@ sidebar:
 
 ---
 
-**Actualización — junio 2026**
+**Update — June 2026**
 
-Desde que escribí este texto el provotipo ha seguido evolucionando. La versión activa sigue siendo [pictos.net](https://pictos.net); la siguiente iteración está en desarrollo en [next.pictos.net](https://next.pictos.net).
+The provotype continues to evolve. Current version: [pictos.net](https://pictos.net). Next iteration in development: [next.pictos.net](https://next.pictos.net).
 
-Lo que ese trabajo ha hecho visible es la naturaleza del pipeline. Inicialmente lo pensé como una secuencia lineal (fases 1, 2, 3), y la *Dual Coding Theory* ofrecía una lectura tentadora: texto entra por el canal verbal, imagen sale por el canal visual, con un nodo de cruce entre los dos. Pero es una simplificación. La hipótesis más honesta es que el pipeline puede ser cualquier grafo con un `inpoint` (texto) y un `outpoint` (SVG). Los nodos intermedios no tienen una topología fija — son *puntos de control*, cada uno con su propia tensión entre lo verbal y lo visual.
+Working with it has clarified the pipeline's structure. What started as a linear sequence is better understood as a graph with an `inpoint` (text) and an `outpoint` (SVG) — any topology is valid. *Dual Coding Theory* (Paivio, 1971) names the minimal case: two parallel channels, verbal and imagistic, cross-referencing each other. Each control point carries its own verbal-visual tension.
 
-En ese marco, la pregunta que más importa para el diseño de la interfaz es: ¿cuál es el mejor nodo intermedio en términos de precio-calidad? Mi respuesta provisional es una **descripción de escena estructurada** — un objeto JSON que especifica intención comunicativa, entidades visuales, relaciones y estilo. Es barato (un LLM compacto lo genera bien), inspectable (texto legible), editable (el profesional puede tocarlo) y trazable (cabe en el `<metadata>` del SVG). Es, en esos términos, el *handle* más útil del pipeline: el lugar donde la intervención profesional tiene más palanca.
+The practical question this raises for interface design: which intermediate node gives the best price-quality ratio? Provisional answer: a **structured scene description in JSON** — communicative intent, visual entities, spatial relations, style. Cheap to generate, legible, editable, traceable through the SVG metadata. The point in the graph where professional intervention has the most leverage.
 
 ---
 
