@@ -234,7 +234,7 @@
         </figure>
       
 
-      <!-- Fecha --><time datetime="2025-04-10T22:03:01+12:00">
+      <!-- Fecha --><time datetime="2025-04-10T06:03:01-04:00">
         10 de abril de 2025
       </time>
 
@@ -327,7 +327,31 @@
     document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
   });
   </script>
-      <h2 id="un-sistema-visual-para-comprender-comunicar-y-construir-sentido">Un sistema visual para comprender, comunicar y construir sentido</h2>
+      <hr />
+
+<p><strong>Actualización — junio 2026</strong></p>
+
+<p>Desde que escribí este texto he estado trabajando con un provotipo: <a href="https://pictos.net">pictos.net</a>. Conviene aclarar la diferencia entre ambas cosas, porque no son lo mismo.</p>
+
+<p><strong>PictoNet</strong> es el proyecto hipotético de construir el modelo local — la instanciación propia, el gemelo digital del sistema generativo. Una infraestructura que no depende de servicios externos y que puede ser controlada, ajustada y apropiada por quienes la usan.</p>
+
+<p><strong>pictos.net</strong> es otra cosa: un provotipo. No una implementación del modelo, sino una superficie para conversar sobre él. Y lo que esa superficie ha permitido explorar es la naturaleza de los <em>puntos de control</em> — los nodos que articulan el pipeline.</p>
+
+<p>Inicialmente, el pipeline generativo se pensó como una secuencia lineal: fases 1, 2, 3. Pero al trabajar con el provotipo, cada punto de control se fue desagrupando. Lo que parecía un paso fue revelando ser un nodo con su propia tensión interna — una <em>gradiente</em>, una polaridad entre lo visual y lo verbal. El punto de control no es una caja negra anónima: es un momento de razonamiento con su propia textura semiótica, su propio registro.</p>
+
+<p>De este modo, el pipeline dejó de ser lineal para convertirse en una trama. Un grafo. Un <em>harness</em> — en el sentido de arnés, estructura de contención y transmisión — donde la generalización sigue siendo la idea que permanece, pero la forma de organizarla se ha vuelto más compleja y más honesta.</p>
+
+<p>Hay algo más, y quizás es lo más importante: el pipeline como grafo revela una diferencia ontológica con los medios anteriores. Antes, cada libro era una presencia física: un objeto que ocupaba espacio, que se reemplazaba, que envejecía. La pantalla opera de otro modo. <strong>La pantalla permanece; el contenido es el reciclable.</strong> No se tiran pantallas: se actualizan. No se coleccionan interfaces: se habitan. En ese sentido, la pantalla es el <em>anti-material</em> — no porque sea inmaterial, sino porque su materialidad es de otro orden: persiste mientras todo lo que pasa por ella es efímero, intercambiable, regenerable.</p>
+
+<p>Esta intuición cambia cómo entiendo PictoNet. Ya no es solo un motor de traducción texto-imagen. Es una infraestructura de <em>harness</em> semiótico — un arnés que sostiene flujos de sentido entre nodos, donde cada nodo tiene su gradiente, su polaridad, su momento de razonamiento visual-verbal. Y donde la pantalla — el sistema — permanece como el soporte que hace posible la renovación continua del contenido.</p>
+
+<p>Una forma de leer este grafo es desde la <em>Dual Coding Theory</em> (Paivio, 1971): el sistema verbal y el sistema imaginístico como dos canales separados que se referencian mutuamente, con un nodo de cruce entre ellos. Eso haría el pipeline <code class="language-plaintext highlighter-rouge">texto → [verbal] ⇌ [imagen] → SVG</code> — un grafo mínimo. Pero es una simplificación: asume que el cruce verbal↔visual ocurre en un solo punto, cuando en realidad cada nodo del harness tiene su propia tensión entre lo verbal y lo visual. El grafo generalizado es más honesto: cualquier estructura con un <code class="language-plaintext highlighter-rouge">inpoint</code> (texto) y un <code class="language-plaintext highlighter-rouge">outpoint</code> (SVG) es válida. La forma del grafo no está dada de antemano.</p>
+
+<p>La pregunta práctica que sigue es: ¿cuál es el mejor <em>nodo intermedio</em> en términos de precio-calidad? Mi hipótesis actual es que ese nodo es una <strong>descripción de escena estructurada</strong> — un objeto JSON pequeño que especifica la intención comunicativa, las entidades visuales, sus relaciones espaciales y los parámetros de estilo. Es barato de generar (cualquier LLM compacto lo produce bien), es inspeccionable (texto legible, no un embedding opaco), es editable (el profesional puede intervenirlo directamente) y es trazable (cabe íntegro en el <code class="language-plaintext highlighter-rouge">&lt;metadata&gt;</code> del SVG). Es, en ese sentido, el <em>handle</em> más útil del pipeline: el punto donde la intervención tiene más palanca con el menor costo técnico.</p>
+
+<hr />
+
+<h2 id="un-sistema-visual-para-comprender-comunicar-y-construir-sentido">Un sistema visual para comprender, comunicar y construir sentido</h2>
 
 <p>Vivimos en un mundo saturado de códigos, símbolos, interfaces e instrucciones. Comprenderlo requiere habilidades lingüísticas, contextuales y culturales que no siempre están disponibles para todos. ¿Qué ocurre cuando una persona no puede leer, no habla, o interpreta de forma diferente los signos convencionales?</p>
 
@@ -884,7 +908,7 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 12 March 2026 - <a href="/feed.xml">Feed RSS</a>.
+     Última actualización: 10 June 2026 - <a href="/feed.xml">Feed RSS</a>.
    </p>
  </footer>
   <!-- Google tag (gtag.js) -->

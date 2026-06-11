@@ -39,6 +39,18 @@ sidebar:
     </div>
 ---
 
+---
+
+**Actualización — junio 2026**
+
+Desde que escribí este texto el provotipo ha seguido evolucionando. La versión activa sigue siendo [pictos.net](https://pictos.net); la siguiente iteración está en desarrollo en [next.pictos.net](https://next.pictos.net).
+
+Lo que ese trabajo ha hecho visible es la naturaleza del pipeline. Inicialmente lo pensé como una secuencia lineal (fases 1, 2, 3), y la *Dual Coding Theory* ofrecía una lectura tentadora: texto entra por el canal verbal, imagen sale por el canal visual, con un nodo de cruce entre los dos. Pero es una simplificación. La hipótesis más honesta es que el pipeline puede ser cualquier grafo con un `inpoint` (texto) y un `outpoint` (SVG). Los nodos intermedios no tienen una topología fija — son *puntos de control*, cada uno con su propia tensión entre lo verbal y lo visual.
+
+En ese marco, la pregunta que más importa para el diseño de la interfaz es: ¿cuál es el mejor nodo intermedio en términos de precio-calidad? Mi respuesta provisional es una **descripción de escena estructurada** — un objeto JSON que especifica intención comunicativa, entidades visuales, relaciones y estilo. Es barato (un LLM compacto lo genera bien), inspectable (texto legible), editable (el profesional puede tocarlo) y trazable (cabe en el `<metadata>` del SVG). Es, en esos términos, el *handle* más útil del pipeline: el lugar donde la intervención profesional tiene más palanca.
+
+---
+
 Between a phrase and a pictogram there is a gap. Not just a technical gap, the kind engineers like to close, but a space full of decisions that somebody has to make: what to show, what to leave out, how abstract to be, how to arrange elements so the image means what it needs to mean for a particular person in a particular situation. Professionals who work in augmentative and alternative communication navigate this gap every day, largely by instinct. They have experience but not explicit maps. They make good choices but cannot always say why, or point to where exactly the choice was made.
 
 My doctoral research at AUT asks a simple question about that gap: which of those decisions can be surfaced, made visible, and put under someone's hand? This is not a theoretical exercise. There is a working proof of concept: [pictos.net](https://pictos.net), where anyone can type a phrase and receive a structured pictogram, generated in real time. The SVG that illustrates this post was made there. Everything that follows, the research question, the design decisions, the notion of handles, grows out of what that prototype has already made visible and what it has yet to resolve.
