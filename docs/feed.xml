@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://localhost:4000/feed.xml"/>
-  <updated>2026-08-17T21:14:31-04:00</updated>
+  <updated>2026-08-17T21:21:59-04:00</updated>
   <id>http://localhost:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>

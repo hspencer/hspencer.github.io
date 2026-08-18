@@ -357,48 +357,64 @@ a.btn-citar {
             grid-template-rows: masonry;
             gap: 1rem;
 
-            a.post-item {
+            .post-wrapper {
                 position: relative;
-                display: inline-block;
-                transition: all 2s ease;
-                outline: 0.111ex solid rgba(255, 255, 255, 0);
+                width: 100%;
 
-                .image-container {
+                .post-item {
                     position: relative;
-                    transition: max-height 2s ease;
-                    max-height: 7em;
-                    overflow: hidden;
+                    display: inline-block;
+                    width: 100%;
+                    outline: 0.111ex solid rgba(255, 255, 255, 0);
 
-                    .image-overlay {
+                    &.post-real {
                         position: absolute;
-                        bottom: 0;
+                        top: 0;
                         left: 0;
-                        width: 100%;
-                        height: 100%;
-                        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 55%, vars.$color-dp-bg);
-                    }
-
-                    img {
-                        border-radius: 3px;
-                        display: block;
-                        width: 100%;
-                        height: auto;
-                        margin: 0;
-                    }
-                }
-
-                &:hover {
-                    border-radius: 0.5ex;
-                    background-color: rgba(255, 255, 255, 0.729);
-                    outline: 1ex solid rgba(255, 255, 255, 0.729);
-
-                    .image-overlay {
-                        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0));
+                        transition: all 0.5s ease;
+                        z-index: 1;
                     }
 
                     .image-container {
-                        transition: all 2s ease;
-                        max-height: 20em;
+                        position: relative;
+                        transition: max-height 0.8s ease;
+                        max-height: 7em;
+                        overflow: hidden;
+
+                        .image-overlay {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 55%, vars.$color-dp-bg);
+                            transition: background 0.5s ease;
+                        }
+
+                        img {
+                            border-radius: 3px;
+                            display: block;
+                            width: 100%;
+                            height: auto;
+                            margin: 0;
+                        }
+                    }
+
+                    &.post-real:hover {
+                        border-radius: 0.5ex;
+                        background-color: #fff;
+                        outline: 1ex solid #fff;
+                        z-index: 10;
+                        transform: scale(1.05);
+                        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+
+                        .image-overlay {
+                            background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 0));
+                        }
+
+                        .image-container {
+                            max-height: 30em; /* Revela la altura completa */
+                        }
                     }
                 }
             }

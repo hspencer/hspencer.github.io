@@ -835,39 +835,57 @@
 
         for (let i = startIndex; i < endIndex && i < posts.length; i++) {
           const post = posts[i];
-          const postItem = document.createElement('a');
-          postItem.href = post.url;
-          postItem.className = 'post-item';
 
-          const imageContainer = document.createElement('div');
-          imageContainer.className = 'image-container';
+          const wrapper = document.createElement('div');
+          wrapper.className = 'post-wrapper';
 
-          if (post.imagen) {
-            const img = document.createElement('img');
-            img.src = post.imagen;
-            img.alt = post.titulo;
-            imageContainer.appendChild(img);
+          // Helper function to create content
+          function createContent(isClone) {
+            const item = document.createElement(isClone ? 'div' : 'a');
+            item.className = 'post-item' + (isClone ? ' post-clone' : ' post-real');
+            if (!isClone) item.href = post.url;
 
-            const imageOverlay = document.createElement('div');
-            imageOverlay.className = 'image-overlay';
-            imageContainer.appendChild(imageOverlay);
+            const imageContainer = document.createElement('div');
+            imageContainer.className = 'image-container';
+
+            if (post.imagen) {
+              const img = document.createElement('img');
+              img.src = post.imagen;
+              img.alt = post.titulo;
+              imageContainer.appendChild(img);
+
+              const imageOverlay = document.createElement('div');
+              imageOverlay.className = 'image-overlay';
+              imageContainer.appendChild(imageOverlay);
+            }
+
+            item.appendChild(imageContainer);
+
+            const h2 = document.createElement('h2');
+            h2.textContent = post.titulo;
+            item.appendChild(h2);
+
+            const p = document.createElement('p');
+            if (post.contenido) {
+              p.textContent = post.contenido.substring(0, 200);
+            } else if (post.excerpt) {
+              p.textContent = post.excerpt.substring(0, 200);
+            }
+            item.appendChild(p);
+            return item;
           }
 
-          postItem.appendChild(imageContainer);
+          // Agregamos el clon invisible para mantener el espacio en la grilla
+          const clone = createContent(true);
+          clone.style.visibility = 'hidden';
+          clone.style.pointerEvents = 'none';
+          wrapper.appendChild(clone);
 
-          const h2 = document.createElement('h2');
-          h2.textContent = post.titulo;
-          postItem.appendChild(h2);
+          // Agregamos el real que se posiciona de forma absoluta
+          const real = createContent(false);
+          wrapper.appendChild(real);
 
-          const p = document.createElement('p');
-          if (post.contenido) {
-            p.textContent = post.contenido.substring(0, 200);
-          } else if (post.excerpt) {
-            p.textContent = post.excerpt.substring(0, 200);
-          }
-          postItem.appendChild(p);
-
-          lastPostsContainer.appendChild(postItem);
+          lastPostsContainer.appendChild(wrapper);
         }
 
         renderPagination(page); // Llamada a renderPagination aquí
