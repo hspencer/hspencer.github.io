@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://localhost:4000/feed.xml"/>
-  <updated>2026-08-17T20:47:12-04:00</updated>
+  <updated>2026-08-17T21:14:31-04:00</updated>
   <id>http://localhost:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -2267,7 +2267,7 @@ For more information on the topic, check this &lt;a href=&quot;http://www.flong.
 
 &lt;h3 id=&quot;citisent&quot;&gt;CitiSent&lt;/h3&gt;
 
-&lt;p&gt;Al estar conciente de que se trata de una aventura que no cesa, CitiSent se plantea como un &lt;em&gt;framework&lt;/em&gt; que permita hacer muchas cosas, una suerte de lenguaje que tenga en su ADN la capacidad de mutar y evolucionar. Mal que mal, esperamos que nos acompañe por mucho tiempo. Tomando la tríada de &lt;a href=&quot;http://www.mediafranca.cl&quot;&gt;MediaFranca&lt;/a&gt;, en CitiSent se construyen &lt;em&gt;estudios&lt;/em&gt; en base a &lt;strong&gt;temas&lt;/strong&gt; , &lt;strong&gt;lugares&lt;/strong&gt; y &lt;strong&gt;personas&lt;/strong&gt;. Se trata, en el fondo, de un lenguaje que les permite a las personas &lt;em&gt;programar Internet&lt;/em&gt; , al modo de &lt;a href=&quot;https://ifttt.com/&quot;&gt;IFTTT&lt;/a&gt; (qué grande es IFTTT).&lt;/p&gt;
+&lt;p&gt;Al estar conciente de que se trata de una aventura que no cesa, CitiSent se plantea como un &lt;em&gt;framework&lt;/em&gt; que permita hacer muchas cosas, una suerte de lenguaje que tenga en su ADN la capacidad de mutar y evolucionar. Mal que mal, esperamos que nos acompañe por mucho tiempo. Tomando la tríada de &lt;a href=&quot;http://www.mediafranca.net&quot;&gt;MediaFranca&lt;/a&gt;, en CitiSent se construyen &lt;em&gt;estudios&lt;/em&gt; en base a &lt;strong&gt;temas&lt;/strong&gt; , &lt;strong&gt;lugares&lt;/strong&gt; y &lt;strong&gt;personas&lt;/strong&gt;. Se trata, en el fondo, de un lenguaje que les permite a las personas &lt;em&gt;programar Internet&lt;/em&gt; , al modo de &lt;a href=&quot;https://ifttt.com/&quot;&gt;IFTTT&lt;/a&gt; (qué grande es IFTTT).&lt;/p&gt;
 
     </content>
   </entry>
