@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://localhost:4000/feed.xml"/>
-  <updated>2026-08-17T20:39:29-04:00</updated>
+  <updated>2026-08-17T20:47:12-04:00</updated>
   <id>http://localhost:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -246,7 +246,7 @@
 
 &lt;p&gt;So the mountain is not sacred. A good deal of it is scaffolding, put up by people who have never made the climb, who found that from high enough on the structure nobody can tell the difference, and who become noticeably anxious when somebody starts climbing the rock.&lt;/p&gt;
 
-&lt;p&gt;I am still climbing. I went to Auckland for design and did not find it in the building, and it was never going to be in the building. I have stopped asking the people on the scaffolding whether the work is any good, because that question has an outside, and the people it belongs to are already using the thing.&lt;/p&gt;
+&lt;p&gt;I am still climbing. I went to AUT for design and did not find it in the building. I have stopped asking the people on the scaffolding whether the work is any good, because that question has an outside, and the people it belongs to are already using the thing.&lt;/p&gt;
 
     </content>
   </entry>
