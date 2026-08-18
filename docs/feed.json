@@ -1,6 +1,38 @@
 [
 
   {
+    "fecha": "2026-08-18T00:00:00-04:00",
+    "titulo": "Connecting the Dots, Connecting the Places, Building the Path",
+    "categorias": ["ideas","research"],
+    "etiquetas": ["vera","pkm","knowledge-graph","interaction-design","AI","memex","mediafranca"],
+    "imagen":  
+                  "https://vera.mediafranca.net/assets/vera-interface.png"
+               ,
+    "url": "/2026/connecting-the-dots",
+    "largo": 4851,
+    "contenido":
+      
+        "On Vera, a personal knowledge tool, and on the walk as a third thing between the map and the text."
+      
+  },
+
+  {
+    "fecha": "2026-08-17T00:00:00-04:00",
+    "titulo": "The Sacred Mountain Is Scaffolding",
+    "categorias": ["ideas","research","escuela"],
+    "etiquetas": ["doctoral-studies","practice-led-research","design-research","design-education","epistemology","academia"],
+    "imagen":  
+                  "/assets/uploads/2026/08/the-scaffolding-mountain.jpeg"
+               ,
+    "url": "/2026/the-sacred-mountain-is-scaffolding",
+    "largo": 27730,
+    "contenido":
+      
+        "I went to Auckland to do a doctorate in design and did not find design. On academic self-validation, a discipline with no outside, and institutions that award degrees in a craft they have stopped practising."
+      
+  },
+
+  {
     "fecha": "2026-03-12T00:00:00-03:00",
     "titulo": "Filippo 3D v2.1",
     "categorias": ["code"],
