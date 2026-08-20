@@ -47,25 +47,25 @@ El Diseño también configura las herramientas. Las herramientas influyen en la 
 
 El Diseño muestra su mayor belleza cuando acoge. Un Diseño hospitalario anticipa la presencia del otro, crea espacios de entrada sin obstáculos y respeta la dignidad de la participación. Su belleza es relacional, culmina en la facilidad con que otro comprende, actúa y siente pertenencia.
 
-La hospitalidad implica apertura, claridad, legibilidad y transparencia de proceso y propósito. La accesibilidad no es otra cosa que la hospitalidad del Diseño. Todo artefacto tiene un revés: costuras, lógica y estructuras ocultas. Mostrar ese revés es volver legible el proceso, hacer visible el tejido. La belleza de la verdad se reconoce en lo enmarañado y lo inacabado, porque desvela cómo llegó a ser lo que es e invita a su apropiación y replicabilidad. La hospitalidad en el Diseño enseña: invita a la apropiación, la reparación, la creación. Con esta generosidad, el Diseño se convierte en un vehículo de cultura, transformando lo cotidiano en un tejido compartido de belleza.
+La hospitalidad implica apertura, claridad, legibilidad y transparencia de proceso y propósito. La accesibilidad no es otra cosa que la hospitalidad del Diseño. Todo artefacto tiene un revés: costuras, lógica y estructuras ocultas. Mostrar ese revés es volver legible el proceso, hacer visible el tejido. La belleza de la verdad se reconoce en lo enmarañado y lo inacabado, porque desvela cómo llegó a ser lo que es e invita a su apropiación y replicabilidad en variación. La hospitalidad en el Diseño enseña: invita a la apropiación, la reparación, la creación. Con esta generosidad de su lenguaje, el Diseño se convierte en un vehículo de cultura, transformando lo cotidiano en un tejido compartido de belleza.
 
 ## El Diseño También Puede Ser Siniestro
 
-El Diseño posee poder, pero los diseñadores a menudo carecen de él. Ese poder fluye a través de nosotros, empleado para la conversión, el control y la extracción. La tecnología se puede emplear para modificar el comportamiento del otro. En este contexto han surgido los “patrones oscuros”: tácticas sistémicas y reconocidas—estrategias engañosas de interfaz que manipulan, coaccionan y socavan el consentimiento. No son errores, sino elecciones deliberadas que habilitan la manipulación.
+El Diseño posee poder, pero los diseñadores a menudo carecen de él. Ese poder fluye a través de <em>nosOtros</em>, empleado para la conversión, el control y la extracción. La tecnología se puede emplear para modificar el comportamiento del otro. En este contexto han surgido los patrones oscuros: tácticas sistémicas y reconocidas estrategias engañosas de interfaz que manipulan, coaccionan y socavan el consentimiento. No son errores, sino elecciones deliberadas que habilitan la manipulación. De eso, ejemplos sobran.
 
-A pesar de un poder personal limitado, los diseñadores cargamos gran responsabilidad. La negativa es nuestro primer instrumento de agencia. Decir “no” no es complacencia, es resistencia. Debemos sostener la claridad, el consentimiento genuino, la reversibilidad, la argumentación documentada y la transparencia. Rehusar la manipulación es reafirmar la integridad. Configura entornos de confianza, autonomía y dignidad, resistiendo lo incorrecto mediante una postura ética con el oficio.
+A pesar de un poder personal limitado, los diseñadores cargamos gran responsabilidad. La negativa es nuestro primer instrumento de agencia. Decir “no” no es complacencia, es resistencia. Debemos sostener la claridad, el consentimiento genuino, la reversibilidad, la argumentación documentada y la transparencia. Rehusar la manipulación descerebrada es reafirmar la integridad. Configura entornos de confianza, autonomía y dignidad, resistiendo lo incorrecto mediante una postura ética con el oficio.
 
 ## El Diseño Siembra Soberanía Tecnológica
 
-La soberanía tecnológica es la capacidad de las comunidades para mantener control sobre las tecnologías que habitan. No se trata de aislamiento, sino de resistir la sumisión a sistemas cerrados y corporativos. Practicar la soberanía significa dar forma a tecnologías que las comunidades puedan apropiarse, modificar y redefinir culturalmente. Esto sostiene la agencia colectiva, evita la dependencia y honra el significado local.
+La soberanía tecnológica es la capacidad de las comunidades para mantener control sobre las tecnologías que habitan y con sus herramientas y dispositivos. No se trata de aislamiento autonomista, sino de resistir la sumisión a sistemas cerrados y corporativos. Practicar la soberanía significa dar forma nuestra a tecnologías que podamos controlar y modificar para poder permanentemente redefinirlas culturalmente. Esto sostiene la agencia colectiva, evita la dependencia y honra el significado de aquí.
 
-La soberanía florece en sistemas adaptables y culturalmente significativos. Cuando el Diseño es accesible, las comunidades pueden sostenerlo, modificarlo y personalizarlo. El Diseño se convierte en cultivo, no imposición, de la vida digital, del registro público y de la memoria colectiva. La soberanía garantiza la libertad de relacionarse con la tecnología sin volverse esclavo de ella.
+La soberanía florece en sistemas adaptables y culturalmente significativos. Cuando el Diseño es accesible, las comunidades pueden sostenerlo, modificarlo y personalizarlo. Hacerlo plural. El Diseño se convierte en cultivo, no imposición, en este tiempo que se despliega digital, hagamos un registro público de la memoria colectiva. La soberanía garantiza la libertad de relacionarse con la tecnología sin verse determinado por ella.
 
 La soberanía tecnológica ayuda a contrarrestar dependencias extendidas, plataformas centralizadas, bloqueos de proveedores globales y cadenas de suministro opacas. Apuesta por infraestructuras adaptativas que respeten valores y capacidades locales. Las comunidades recuperan agencia digital, cultivando sistemas alineados con necesidades culturales. En esta recuperación, el Diseño se convierte en un acto de justicia y renovación.
 
 ## El Diseño Revela Sistemas con Transparencia
 
-Todo proyecto oculta y muestra a la vez. El Diseño tiene un rostro visible y un revés en cuanto lenguaje: su lógica, estructura y consecuencias. La transparencia implica mostrar ambos lados: explicar por qué se construye algo, cómo funciona y qué impacto tiene.
+Todo constructo oculta y muestra a la vez. El Diseño tiene un rostro visible y un revés en cuanto lenguaje: su lógica, estructura y consecuencias. La transparencia implica mostrar ambos lados: explicar por qué se construye algo, cómo funciona y qué impacto tiene.
 
 La transparencia no es un adorno ideológico. Es la condición de la comprensión compartida y de la reinvención. Ofrece el revés como lenguaje, permitiendo que otros lean, adapten, cuestionen y continúen lo que fue dado. Al revelar, el Diseño invita a la transformación y al cuidado compartido. La transparencia visibiliza los propósitos y sincera las motivaciones.
 
@@ -79,8 +79,7 @@ Los artefactos del diseño proponen su propia forma para usarse, desplegarse y c
 
 ### Corolario
 
-El Diseño debe ir más allá de producir lo posible y comprometerse con deliberar lo deseable. Todo Diseño participa en la configuración de un mundo compartido. Diseñar es, en última instancia, asumir la responsabilidad por el futuro de la convivencia humana.
-
+El Diseño debe ir más allá de producir lo posible y comprometerse con deliberar lo deseable. Todo Diseño participa en la configuración de un mundo compartido. Diseñar es, en última instancia, asumir la responsabilidad por el futuro de la convivencia humana. Diseño abductivo.
 </div>
 
 <div style='font-family: monospace; text-align: center; font-size: 11px; margin: 3em 0 0 0'>
