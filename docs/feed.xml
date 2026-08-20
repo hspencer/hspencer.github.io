@@ -1,7 +1,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{dp} · doble página - Todos los Contenidos</title>
   <link href="http://localhost:4000/feed.xml"/>
-  <updated>2026-08-17T21:21:59-04:00</updated>
+  <updated>2026-08-19T21:50:20-04:00</updated>
   <id>http://localhost:4000/feed.xml</id>
   <author>
     <name>Herbert Spencer</name>
@@ -10,7 +10,7 @@
   <!-- Incluir Posts -->
   
   <entry>
-    <title>Connecting the Dots, Connecting the Places, Building the Path</title>
+    <title>Connecting the Dots: Building the Path</title>
     <link href="http://localhost:4000/2026/connecting-the-dots"/>
     <updated>2026-08-18T00:00:00-04:00</updated>
     <id>http://localhost:4000/2026/connecting-the-dots</id>
@@ -588,7 +588,7 @@
 
   &lt;h2 id=&quot;el-diseo-pertenece-a-la-polis&quot;&gt;El Diseño Pertenece a la Polis&lt;/h2&gt;
 
-  &lt;p&gt;El Diseño existe entre las personas, como el lenguaje. Pertenece a la sociedad porque da forma a la vida compartida: signos, objetos, interfaces y sistemas facilitan encuentros, establecen umbrales y distribuyen las miradas y las fuerzas. El Diseño responde ante el colectivo y reafirma al &lt;em&gt;nosotros&lt;/em&gt;. Su medida es relacional, es con el y lo otro, en relación. Esto exige una práctica situada: un Diseño atento a lo que funciona, dónde y con quién. El pragmatismo aquí es un camino de los actos y gestos repetidos que sostienen la vida y le dan &lt;em&gt;forma&lt;/em&gt;. La belleza del Diseño surge como una elevada integración de dimensiones materiales, económico-utilitarias, sociales y culturales, haciendo rimar bueno, bello y verdadero El Diseño debe hablar con los lenguajes de los lugares, tradiciones, paisajes, comunidades, ecosistemas; reconociendo también al mundo &lt;em&gt;más-que-humano&lt;/em&gt;. Pertenecer a la polis es tratar la tecnología como un medio cívico: claro, mantenible en comunidad, culturalmente resonante, adaptable y transformable. Implica diseñar con custodios, probar en contexto, documentar decisiones y fomentar nuestra reimaginación constante.&lt;/p&gt;
+  &lt;p&gt;El Diseño existe entre las personas, como el lenguaje. Pertenece a la sociedad porque da forma a la vida compartida: signos, objetos, interfaces y sistemas facilitan encuentros, establecen umbrales y distribuyen las miradas y las fuerzas. El Diseño responde ante el colectivo y reafirma al &lt;em&gt;nosotros&lt;/em&gt;. Su medida es relacional, es con el y lo otro, en relación. Esto exige una práctica situada: un Diseño atento a lo que funciona, dónde y con quién. El pragmatismo aquí es un camino de los actos y gestos repetidos que sostienen la vida y le dan &lt;em&gt;forma&lt;/em&gt;. La belleza del Diseño surge como una elevada integración de dimensiones materiales, económico-utilitarias, sociales y culturales, haciendo rimar bueno, bello y verdadero. El Diseño debe hablar con los lenguajes de los lugares, tradiciones, paisajes, comunidades, ecosistemas; reconociendo también al mundo &lt;em&gt;más-que-humano&lt;/em&gt;. Pertenecer a la polis es tratar la tecnología como un medio cívico: claro, mantenible en comunidad, culturalmente resonante, adaptable y transformable. Implica diseñar con custodios, probar en contexto, documentar decisiones y fomentar nuestra reimaginación constante.&lt;/p&gt;
 
   &lt;h2 id=&quot;el-diseo-celebra-la-condicin-humana&quot;&gt;El Diseño Celebra la Condición Humana&lt;/h2&gt;
 

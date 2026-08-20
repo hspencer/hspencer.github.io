@@ -1,7 +1,7 @@
 ---
 layout: post
 type: posts
-title: "Connecting the Dots, Connecting the Places, Building the Path"
+title: "Connecting the Dots: Building the Path"
 permalink: /2026/connecting-the-dots
 description: "On Vera, a personal knowledge tool, and on the walk as a third thing between the map and the text."
 date: 2026-08-18

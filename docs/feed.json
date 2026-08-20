@@ -2,7 +2,7 @@
 
   {
     "fecha": "2026-08-18T00:00:00-04:00",
-    "titulo": "Connecting the Dots, Connecting the Places, Building the Path",
+    "titulo": "Connecting the Dots: Building the Path",
     "categorias": ["ideas","research"],
     "etiquetas": ["vera","pkm","knowledge-graph","interaction-design","AI","memex","mediafranca"],
     "imagen":  
@@ -137,7 +137,7 @@
                   "assets/uploads/2025/09/yellow-manifest.png"
                ,
     "url": "/2025/manifiesto",
-    "largo": 10866,
+    "largo": 10867,
     "contenido":
       
         "Una postura ética para orientar al oficio hacia lo común, lo hospitalario y lo humano. No es un listado de buenas prácticas, sino una declaración ética y poética sobre nuestra responsabilidad."
