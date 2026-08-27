@@ -222,7 +222,55 @@
 
     <main id="dp-full">
      <article>
-        <h1 class="title">La guía del joven aprendiz a la disciplina</h1>
+        <h1 class="title">La guía del joven aprendiz a la disciplina</h1><a id="btn-citar-la-guia-del-joven-aprendiz-a-la-disciplina" class="btn-citar">&#x301E;</a>
+  
+  <div id="modal-citar-la-guia-del-joven-aprendiz-a-la-disciplina" class="modal-citar">
+    <div class="modal-contenido">
+      <span class="modal-cerrar">&times;</span>
+      <h3>Cómo citar este artículo:</h3>
+  
+      <h4>APA (7ª edición)</h4>
+      <p id="apa-cita">
+        Spencer, H. (2015, April 6). <em>La guía del joven aprendiz a la disciplina</em>. 
+        En <em>{dp} · doble página</em>. https://herbertspencer.net/2015/04/la-guia-del-joven-aprendiz-a-la-disciplina. Visitado en: <span class="fecha-acceso"></span>
+      </p>
+  
+      <h4>MLA</h4>
+      <p id="mla-cita">
+        Spencer, Herbert. "<em>La guía del joven aprendiz a la disciplina</em>." <em>{dp} · doble página</em>, 6 April 2015, 
+        https://herbertspencer.net/2015/04/la-guia-del-joven-aprendiz-a-la-disciplina. Accedido el <span class="fecha-acceso"></span>.
+      </p>
+  
+      <h4>Chicago</h4>
+      <p id="chicago-cita">
+        Spencer, Herbert. "<em>La guía del joven aprendiz a la disciplina</em>." {dp} · doble página. Publicado el 6 de April de 2015. 
+        https://herbertspencer.net/2015/04/la-guia-del-joven-aprendiz-a-la-disciplina. Consultado el <span class="fecha-acceso"></span>.
+      </p>
+    </div>
+  </div>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("btn-citar-la-guia-del-joven-aprendiz-a-la-disciplina");
+    const modal = document.getElementById("modal-citar-la-guia-del-joven-aprendiz-a-la-disciplina");
+    const cerrar = modal.querySelector(".modal-cerrar");
+  
+    btn.addEventListener("click", () => modal.style.display = "block");
+    cerrar.addEventListener("click", () => modal.style.display = "none");
+    window.addEventListener("click", e => {
+      if (e.target == modal) modal.style.display = "none";
+    });
+  
+    // Insertar fecha de acceso en formato: 26 de marzo de 2025
+    const fecha = new Date();
+    const meses = [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ];
+    const fechaFormateada = `${fecha.getDate()} de ${meses[fecha.getMonth()]} de ${fecha.getFullYear()}`;
+    document.querySelectorAll(".fecha-acceso").forEach(el => el.textContent = fechaFormateada);
+  });
+  </script>
         
         <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
         <div id="p5"></div>
@@ -249,7 +297,7 @@
      y los comentarios están habilitados vía <a href="https://utteranc.es/" target="_blank" rel="noopener">utterances</a>.
    </p>
    <p>
-     Última actualización: 19 August 2026 - <a href="/feed.xml">Feed RSS</a>.
+     Última actualización: 26 August 2026 - <a href="/feed.xml">Feed RSS</a>.
    </p>
  </footer>
     <!-- Google tag (gtag.js) -->
